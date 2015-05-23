@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AcfRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="
+urn://www.multigen-paradigm.com mpi.xsd"
+xmlns="urn://www.multigen-paradigm.com"
+    xmlns:vp="urn://www.multigen-paradigm.com/vp"
+    xmlns:vpEnv="urn://www.multigen-paradigm.com/vpEnv"
+    xmlns:vpMotion="urn://www.multigen-paradigm.com/vpMotion"
+    xmlns:vpVortex="urn://www.cm-labs.com/vpVortex"
+>
+
+<vp:AcfInfo name="scene.acf">
+    <vp:initializeModule>vpEnv</vp:initializeModule>
+    <vp:initializeModule>vpMotion</vp:initializeModule>
+    <vp:initializeModule>vpVortex</vp:initializeModule>
+    <vp:autoEnable>true</vp:autoEnable>
+    <vp:appToRun></vp:appToRun>
+    <vp:appToRunArgs>$ACF</vp:appToRunArgs>
+    <vp:comment></vp:comment>
+    <vp:createdByVersion>6.0.0</vp:createdByVersion>
+    <vp:schemaVersion>12</vp:schemaVersion>
+</vp:AcfInfo>
+
+<vp:Kernel name="myKernel">
+    <vp:setNotifyLevel>LEVEL_WARN</vp:setNotifyLevel>
+    <vp:setNotifyColorEnable>false</vp:setNotifyColorEnable>
+    <vp:setPriority>PRIORITY_NORMAL</vp:setPriority>
+    <vp:setProcessor>-1</vp:setProcessor>
+    <vp:setFrameRateLimiterEnable>true</vp:setFrameRateLimiterEnable>
+    <vp:setDesiredFrameRate>0</vp:setDesiredFrameRate>
+    <vp:setNotifyClassTypeMode>CLASS_TYPE_MODE_INCLUSIVE</vp:setNotifyClassTypeMode>
+</vp:Kernel>
+
+<vp:PagingMgr name="myPagingMgr">
+    <vp:setAsynchronousPagingQueueEnable>true</vp:setAsynchronousPagingQueueEnable>
+    <vp:setAsynchronousFileIOEnable>false</vp:setAsynchronousFileIOEnable>
+    <vp:setDefaultQueuePriority>PRIORITY_NORMAL</vp:setDefaultQueuePriority>
+    <vp:setDefaultQueuePriorityOverride>-1</vp:setDefaultQueuePriorityOverride>
+    <vp:setDefaultQueueProcessor>0</vp:setDefaultQueueProcessor>
+    <vp:setMaxNumPageablesToBeCompletedPerFrame>-1</vp:setMaxNumPageablesToBeCompletedPerFrame>
+</vp:PagingMgr>
+
+<vp:Pipeline name="myPipeline">
+    <vp:addWindow refTo="Window::myWindow"></vp:addWindow>
+    <vp:setMultiThread>MULTITHREAD_INLINE</vp:setMultiThread>
+    <vp:setId>0</vp:setId>
+    <vp:setNumCullThreads>0</vp:setNumCullThreads>
+    <vp:setCullThreadPriority>PRIORITY_NORMAL</vp:setCullThreadPriority>
+    <vp:setCullThreadProcessor>-1</vp:setCullThreadProcessor>
+    <vp:setDrawThreadPriority>PRIORITY_NORMAL</vp:setDrawThreadPriority>
+    <vp:setDrawThreadProcessor>-1</vp:setDrawThreadProcessor>
+    <vp:setBeginFrameOnVsyncEnable>false</vp:setBeginFrameOnVsyncEnable>
+    <vp:setDesiredTextureSubloadTime>-1</vp:setDesiredTextureSubloadTime>
+    <vp:setDesiredBufferObjectSubloadTime>-1</vp:setDesiredBufferObjectSubloadTime>
+    <vp:setDesiredShaderApplyTime>-1</vp:setDesiredShaderApplyTime>
+    <vp:setTextureSubloadByteAmount>-1</vp:setTextureSubloadByteAmount>
+    <vp:setBufferObjectSubloadByteAmount>-1</vp:setBufferObjectSubloadByteAmount>
+    <vp:setTextureSubloadingGain>1</vp:setTextureSubloadingGain>
+    <vp:setBufferObjectSubloadingGain>1</vp:setBufferObjectSubloadingGain>
+    <vp:setGraphicsResourceApplyThreadMode>
+        <vp:mode>APPLY_ASYNCHRONOUS_GRAPHICS</vp:mode>
+        <vp:enable>false</vp:enable>
+    </vp:setGraphicsResourceApplyThreadMode>
+    <vp:setGraphicsResourceApplyThreadMode>
+        <vp:mode>APPLY_ASYNCHRONOUS_TEXTURE_SUBLOAD</vp:mode>
+        <vp:enable>false</vp:enable>
+    </vp:setGraphicsResourceApplyThreadMode>
+    <vp:setGraphicsResourceApplyThreadMode>
+        <vp:mode>APPLY_ASYNCHRONOUS_BUFFER_OBJECT_SUBLOAD</vp:mode>
+        <vp:enable>false</vp:enable>
+    </vp:setGraphicsResourceApplyThreadMode>
+    <vp:setGraphicsResourceThreadPriority>PRIORITY_ABOVE_NORMAL</vp:setGraphicsResourceThreadPriority>
+    <vp:setGraphicsResourceThreadProcessor>-1</vp:setGraphicsResourceThreadProcessor>
+</vp:Pipeline>
+
+<vp:Window name="myWindow">
+    <vp:addChannel refTo="Channel::myChannel"></vp:addChannel>
+    <vp:setLabel>Vega Prime Window</vp:setLabel>
+    <vp:setOrigin>
+        <vp:left>0</vp:left>
+        <vp:bottom>0</vp:bottom>
+    </vp:setOrigin>
+    <vp:setSize>
+        <vp:width>1024</vp:width>
+        <vp:height>768</vp:height>
+    </vp:setSize>
+    <vp:setFullScreenEnable>false</vp:setFullScreenEnable>
+    <vp:setBorderEnable>true</vp:setBorderEnable>
+    <vp:setInputEnable>true</vp:setInputEnable>
+    <vp:setCursorEnable>true</vp:setCursorEnable>
+    <vp:setStereoEnable>false</vp:setStereoEnable>
+    <vp:setNumColorBits>8</vp:setNumColorBits>
+    <vp:setNumAlphaBits>8</vp:setNumAlphaBits>
+    <vp:setNumDepthBits>24</vp:setNumDepthBits>
+    <vp:setNumStencilBits>0</vp:setNumStencilBits>
+    <vp:setNumAccumColorBits>0</vp:setNumAccumColorBits>
+    <vp:setNumAccumAlphaBits>0</vp:setNumAccumAlphaBits>
+    <vp:setNumMultiSampleBits>4</vp:setNumMultiSampleBits>
+    <vp:setSwapInterval>1</vp:setSwapInterval>
+    <vp:setSwapSyncEnable>false</vp:setSwapSyncEnable>
+</vp:Window>
+
+<vp:Channel name="myChannel">
+    <vp:setOffsetTranslate>
+        <vp:x>0</vp:x>
+        <vp:y>0</vp:y>
+        <vp:z>0</vp:z>
+    </vp:setOffsetTranslate>
+    <vp:setOffsetRotate>
+        <vp:h>0</vp:h>
+        <vp:p>0</vp:p>
+        <vp:r>0</vp:r>
+    </vp:setOffsetRotate>
+    <vp:setCullMask>FFFFFFFF</vp:setCullMask>
+    <vp:setRenderMask>FFFFFFFF</vp:setRenderMask>
+    <vp:setClearColor>
+        <vp:r>0.000000</vp:r>
+        <vp:g>0.500000</vp:g>
+        <vp:b>1.000000</vp:b>
+        <vp:a>0.000000</vp:a>
+    </vp:setClearColor>
+    <vp:setClearBuffers>3</vp:setClearBuffers>
+    <vp:setDrawArea>
+        <vp:left>0</vp:left>
+        <vp:right>1</vp:right>
+        <vp:bottom>0</vp:bottom>
+        <vp:top>1</vp:top>
+    </vp:setDrawArea>
+    <vp:setFOVSymmetric>
+        <vp:hfov>45.000000</vp:hfov>
+        <vp:vfov>-1.000000</vp:vfov>
+    </vp:setFOVSymmetric>
+    <vp:setNearFar>
+        <vp:nr>1.000000</vp:nr>
+        <vp:fr>35000.000000</vp:fr>
+    </vp:setNearFar>
+    <vp:setLODVisibilityRangeScale>1</vp:setLODVisibilityRangeScale>
+    <vp:setLODTransitionRangeScale>1</vp:setLODTransitionRangeScale>
+    <vp:setFOVScale>-1</vp:setFOVScale>
+    <vp:setCullThreadPriority>PRIORITY_NORMAL</vp:setCullThreadPriority>
+    <vp:setCullThreadProcessor>-1</vp:setCullThreadProcessor>
+    <vp:setGraphicsModeEnable>
+        <vp:mode>GRAPHICS_MODE_WIREFRAME</vp:mode>
+        <vp:enable>false</vp:enable>
+    </vp:setGraphicsModeEnable>
+    <vp:setGraphicsModeEnable>
+        <vp:mode>GRAPHICS_MODE_TRANSPARENCY</vp:mode>
+        <vp:enable>true</vp:enable>
+    </vp:setGraphicsModeEnable>
+    <vp:setGraphicsModeEnable>
+        <vp:mode>GRAPHICS_MODE_TEXTURE</vp:mode>
+        <vp:enable>true</vp:enable>
+    </vp:setGraphicsModeEnable>
+    <vp:setGraphicsModeEnable>
+        <vp:mode>GRAPHICS_MODE_LIGHT</vp:mode>
+        <vp:enable>true</vp:enable>
+    </vp:setGraphicsModeEnable>
+    <vp:setGraphicsModeEnable>
+        <vp:mode>GRAPHICS_MODE_FOG</vp:mode>
+        <vp:enable>true</vp:enable>
+    </vp:setGraphicsModeEnable>
+    <vp:setGraphicsModeEnable>
+        <vp:mode>GRAPHICS_MODE_SHADERS</vp:mode>
+        <vp:enable>true</vp:enable>
+    </vp:setGraphicsModeEnable>
+    <vp:setMultiSample>MULTISAMPLE_ANTIALIAS</vp:setMultiSample>
+    <vp:setStatisticsPage>PAGE_OFF</vp:setStatisticsPage>
+    <vp:setCullBoundingBoxTestEnable>false</vp:setCullBoundingBoxTestEnable>
+    <vp:setOpaqueSort>
+        <vp:primary>OPAQUE_SORT_TEXTURE</vp:primary>
+        <vp:secondary>OPAQUE_SORT_MATERIAL</vp:secondary>
+    </vp:setOpaqueSort>
+    <vp:setTransparentSort>TRANSPARENT_SORT_DEPTH</vp:setTransparentSort>
+    <vp:setDrawBuffer>DRAW_BUFFER_DEFAULT</vp:setDrawBuffer>
+    <vp:setStressEnable>false</vp:setStressEnable>
+    <vp:setStressParameters>
+        <vp:fraction>1</vp:fraction>
+        <vp:max>20</vp:max>
+        <vp:high>0.75</vp:high>
+        <vp:low>0.5</vp:low>
+        <vp:scale>2</vp:scale>
+    </vp:setStressParameters>
+</vp:Channel>
+
+<vp:Observer name="myObserver">
+    <vp:setStrategy refTo="MotionUFO::myMotion"></vp:setStrategy>
+    <vp:setStrategyEnable>true</vp:setStrategyEnable>
+    <vp:addChannel refTo="Channel::myChannel"></vp:addChannel>
+    <vp:addAttachment refTo="Env::myEnv"></vp:addAttachment>
+    <vp:setScene refTo="Scene::myScene"></vp:setScene>
+    <vp:setLookFrom refTo="Transform::myTransform"></vp:setLookFrom>
+    <vp:setTranslate>
+        <vp:x>-1297.13</vp:x>
+        <vp:y>-1025.92</vp:y>
+        <vp:z>343.347</vp:z>
+    </vp:setTranslate>
+    <vp:setRotate>
+        <vp:h>292</vp:h>
+        <vp:p>-7</vp:p>
+        <vp:r>0</vp:r>
+    </vp:setRotate>
+    <vp:setLatencyCriticalEnable>false</vp:setLatencyCriticalEnable>
+</vp:Observer>
+
+<vp:Scene name="myScene"/>
+<vp:Transform name="myTransform">
+    <vp:setCullMask>FFFFFFFF</vp:setCullMask>
+    <vp:setRenderMask>FFFFFFFF</vp:setRenderMask>
+    <vp:setIsectMask>FFFFFFFF</vp:setIsectMask>
+    <vp:setStrategyEnable>true</vp:setStrategyEnable>
+    <vp:setTranslate>
+        <vp:x>-15</vp:x>
+        <vp:y>-10</vp:y>
+        <vp:z>7</vp:z>
+    </vp:setTranslate>
+    <vp:setRotate>
+        <vp:h>-61</vp:h>
+        <vp:p>-10</vp:p>
+        <vp:r>0</vp:r>
+    </vp:setRotate>
+    <vp:setScale>
+        <vp:x>1</vp:x>
+        <vp:y>1</vp:y>
+        <vp:z>1</vp:z>
+    </vp:setScale>
+    <vp:setStaticEnable>false</vp:setStaticEnable>
+</vp:Transform>
+
+<vp:IsectorXYZPR name="myIsector">
+    <vp:setEnable>true</vp:setEnable>
+    <vp:setRenderEnable>false</vp:setRenderEnable>
+    <vp:setTranslate>
+        <vp:x>0</vp:x>
+        <vp:y>0</vp:y>
+        <vp:z>0</vp:z>
+    </vp:setTranslate>
+    <vp:setRotate>
+        <vp:h>0</vp:h>
+        <vp:p>0</vp:p>
+        <vp:r>0</vp:r>
+    </vp:setRotate>
+    <vp:setMode>2A</vp:setMode>
+    <vp:setIsectMask>FFFFFFFF</vp:setIsectMask>
+    <vp:setMaterialMask>FFFF</vp:setMaterialMask>
+    <vp:setStrategyEnable>true</vp:setStrategyEnable>
+    <vp:setSegmentZExtent>
+        <vp:min>-5000.000000</vp:min>
+        <vp:max>5000.000000</vp:max>
+    </vp:setSegmentZExtent>
+</vp:IsectorXYZPR>
+
+<vp:RecyclingService name="myRecyclingService">
+    <vp:setMultiThread>MULTITHREAD_INLINE</vp:setMultiThread>
+    <vp:setThreadPriority>PRIORITY_NORMAL</vp:setThreadPriority>
+    <vp:setThreadProcessor>-1</vp:setThreadProcessor>
+    <vp:setRecycleTime>-1</vp:setRecycleTime>
+</vp:RecyclingService>
+
+<vpEnv:EnvGlobals name="myEnvGlobals">
+    <vpEnv:setSkyLightEnable>true</vpEnv:setSkyLightEnable>
+    <vpEnv:setDominantCelestialLightingEnable>true</vpEnv:setDominantCelestialLightingEnable>
+    <vpEnv:setLocalViewerEnable>false</vpEnv:setLocalViewerEnable>
+    <vpEnv:setTwoSidedLightingEnable>false</vpEnv:setTwoSidedLightingEnable>
+    <vpEnv:setEnvironmentMapGenerationEnable>false</vpEnv:setEnvironmentMapGenerationEnable>
+</vpEnv:EnvGlobals>
+
+<vpEnv:Env name="myEnv">
+    <vpEnv:setDate>
+        <vpEnv:day>1</vpEnv:day>
+        <vpEnv:month>9</vpEnv:month>
+        <vpEnv:year>2006</vpEnv:year>
+    </vpEnv:setDate>
+    <vpEnv:setTimeOfDay>9.250000</vpEnv:setTimeOfDay>
+    <vpEnv:setTimeMultiplier>1.000000</vpEnv:setTimeMultiplier>
+    <vpEnv:setEphemerisUpdateInterval>0.000000</vpEnv:setEphemerisUpdateInterval>
+    <vpEnv:setReferencePosition>
+        <vpEnv:longitude>-117.355103</vpEnv:longitude>
+        <vpEnv:latitude>33.301300</vpEnv:latitude>
+    </vpEnv:setReferencePosition>
+    <vpEnv:setEphemerisTimeZoneOffset>-10000</vpEnv:setEphemerisTimeZoneOffset>
+    <vpEnv:setSkyColor>
+        <vpEnv:r>0.513725</vpEnv:r>
+        <vpEnv:g>0.701961</vpEnv:g>
+        <vpEnv:b>0.941176</vpEnv:b>
+        <vpEnv:a>1.000000</vpEnv:a>
+    </vpEnv:setSkyColor>
+    <vpEnv:setVisibilityType>VISIBILITY_TYPE_VERTEX_EXP2</vpEnv:setVisibilityType>
+    <vpEnv:setVisibilityRangeOnset>0.000000</vpEnv:setVisibilityRangeOnset>
+    <vpEnv:setVisibilityRangeOpaque>60000.000000</vpEnv:setVisibilityRangeOpaque>
+    <vpEnv:setVisibilityColor>
+        <vpEnv:r>0.764706</vpEnv:r>
+        <vpEnv:g>0.858824</vpEnv:g>
+        <vpEnv:b>1.000000</vpEnv:b>
+        <vpEnv:a>1.000000</vpEnv:a>
+    </vpEnv:setVisibilityColor>
+    <vpEnv:setHazeColor>
+        <vpEnv:r>0.772549</vpEnv:r>
+        <vpEnv:g>0.772549</vpEnv:g>
+        <vpEnv:b>0.772549</vpEnv:b>
+        <vpEnv:a>0.445397</vpEnv:a>
+    </vpEnv:setHazeColor>
+    <vpEnv:setManageVisibilityColorsEnable>true</vpEnv:setManageVisibilityColorsEnable>
+    <vpEnv:setAmbientLightingColor>
+        <vpEnv:r>0.000000</vpEnv:r>
+        <vpEnv:g>0.000000</vpEnv:g>
+        <vpEnv:b>0.000000</vpEnv:b>
+        <vpEnv:a>1.000000</vpEnv:a>
+    </vpEnv:setAmbientLightingColor>
+    <vpEnv:setLightBrightnessScale>
+        <vpEnv:color>COLOR_AMBIENT</vpEnv:color>
+        <vpEnv:scale>0.500000</vpEnv:scale>
+    </vpEnv:setLightBrightnessScale>
+    <vpEnv:setLightBrightnessScale>
+        <vpEnv:color>COLOR_DIFFUSE</vpEnv:color>
+        <vpEnv:scale>0.500000</vpEnv:scale>
+    </vpEnv:setLightBrightnessScale>
+    <vpEnv:setLightBrightnessScale>
+        <vpEnv:color>COLOR_SPECULAR</vpEnv:color>
+        <vpEnv:scale>1.000000</vpEnv:scale>
+    </vpEnv:setLightBrightnessScale>
+    <vpEnv:setLightColorScale>
+        <vpEnv:color>COLOR_AMBIENT</vpEnv:color>
+        <vpEnv:r>1.000000</vpEnv:r>
+        <vpEnv:g>1.000000</vpEnv:g>
+        <vpEnv:b>1.000000</vpEnv:b>
+    </vpEnv:setLightColorScale>
+    <vpEnv:setLightColorScale>
+        <vpEnv:color>COLOR_DIFFUSE</vpEnv:color>
+        <vpEnv:r>1.000000</vpEnv:r>
+        <vpEnv:g>1.000000</vpEnv:g>
+        <vpEnv:b>1.000000</vpEnv:b>
+    </vpEnv:setLightColorScale>
+    <vpEnv:setLightColorScale>
+        <vpEnv:color>COLOR_SPECULAR</vpEnv:color>
+        <vpEnv:r>1.000000</vpEnv:r>
+        <vpEnv:g>1.000000</vpEnv:g>
+        <vpEnv:b>1.000000</vpEnv:b>
+    </vpEnv:setLightColorScale>
+    <vpEnv:addEnvFx refTo="EnvSun::myEnvSun"></vpEnv:addEnvFx>
+    <vpEnv:addEnvFx refTo="EnvMoon::myEnvMoon"></vpEnv:addEnvFx>
+    <vpEnv:addEnvFx refTo="EnvSkyDome::myEnvSkyDome"></vpEnv:addEnvFx>
+    <vpEnv:addEnvFx refTo="EnvCloudLayer2D::myEnvCloudLayer"></vpEnv:addEnvFx>
+    <vpEnv:addEnvFx refTo="EnvWind::myEnvWind"></vpEnv:addEnvFx>
+    <vpEnv:addEnvFx refTo="EnvStars::myEnvStars"></vpEnv:addEnvFx>
+</vpEnv:Env>
+
+<vpEnv:EnvSun name="myEnvSun">
+    <vpEnv:setEnable>true</vpEnv:setEnable>
+    <vpEnv:setTwilightDip>-18.000000</vpEnv:setTwilightDip>
+    <vpEnv:setGeometryEnable>true</vpEnv:setGeometryEnable>
+    <vpEnv:setTextureFile>sun.inta</vpEnv:setTextureFile>
+    <vpEnv:setTextureBlendColor>
+        <vpEnv:r>1.000000</vpEnv:r>
+        <vpEnv:g>1.000000</vpEnv:g>
+        <vpEnv:b>1.000000</vpEnv:b>
+        <vpEnv:a>1.000000</vpEnv:a>
+    </vpEnv:setTextureBlendColor>
+    <vpEnv:setTextureBlendMode>TEXTURE_BLEND_MODE_MODULATE</vpEnv:setTextureBlendMode>
+    <vpEnv:setColor>
+        <vpEnv:r>0.992156</vpEnv:r>
+        <vpEnv:g>1.000000</vpEnv:g>
+        <vpEnv:b>0.949019</vpEnv:b>
+        <vpEnv:a>1.000000</vpEnv:a>
+    </vpEnv:setColor>
+    <vpEnv:setVisibilityRangeRatio>0.050000</vpEnv:setVisibilityRangeRatio>
+    <vpEnv:setAngularSize>5.500000</vpEnv:setAngularSize>
+    <vpEnv:setHorizonAngle>40.000000</vpEnv:setHorizonAngle>
+    <vpEnv:setHorizonColor>
+        <vpEnv:r>1.000000</vpEnv:r>
+        <vpEnv:g>0.545098</vpEnv:g>
+        <vpEnv:b>0.239216</vpEnv:b>
+        <vpEnv:a>1.000000</vpEnv:a>
+    </vpEnv:setHorizonColor>
+    <vpEnv:setHorizonSizeScale>2.000000</vpEnv:setHorizonSizeScale>
+    <vpEnv:setHorizonLightColorScale>0.250000</vpEnv:setHorizonLightColorScale>
+</vpEnv:EnvSun>
+
+<vpEnv:EnvMoon name="myEnvMoon">
+    <vpEnv:setEnable>true</vpEnv:setEnable>
+    <vpEnv:setBrightness>0.250000</vpEnv:setBrightness>
+    <vpEnv:setGeometryEnable>true</vpEnv:setGeometryEnable>
+    <vpEnv:setTextureFile>moon.inta</vpEnv:setTextureFile>
+    <vpEnv:setTextureBlendColor>
+        <vpEnv:r>1.000000</vpEnv:r>
+        <vpEnv:g>1.000000</vpEnv:g>
+        <vpEnv:b>1.000000</vpEnv:b>
+        <vpEnv:a>1.000000</vpEnv:a>
+    </vpEnv:setTextureBlendColor>
+    <vpEnv:setTextureBlendMode>TEXTURE_BLEND_MODE_MODULATE</vpEnv:setTextureBlendMode>
+    <vpEnv:setColor>
+        <vpEnv:r>0.811765</vpEnv:r>
+        <vpEnv:g>0.886275</vpEnv:g>
+        <vpEnv:b>0.937255</vpEnv:b>
+        <vpEnv:a>1.000000</vpEnv:a>
+    </vpEnv:setColor>
+    <vpEnv:setVisibilityRangeRatio>0.100000</vpEnv:setVisibilityRangeRatio>
+    <vpEnv:setAngularSize>1.500000</vpEnv:setAngularSize>
+    <vpEnv:setHorizonAngle>30.000000</vpEnv:setHorizonAngle>
+    <vpEnv:setHorizonColor>
+        <vpEnv:r>0.811765</vpEnv:r>
+        <vpEnv:g>0.886275</vpEnv:g>
+        <vpEnv:b>0.937255</vpEnv:b>
+        <vpEnv:a>1.000000</vpEnv:a>
+    </vpEnv:setHorizonColor>
+    <vpEnv:setHorizonSizeScale>1.700000</vpEnv:setHorizonSizeScale>
+    <vpEnv:setHorizonLightColorScale>0.000000</vpEnv:setHorizonLightColorScale>
+</vpEnv:EnvMoon>
+
+<vpEnv:EnvSkyDome name="myEnvSkyDome">
+    <vpEnv:setEnable>true</vpEnv:setEnable>
+    <vpEnv:setGroundColor>
+        <vpEnv:r>0.211765</vpEnv:r>
+        <vpEnv:g>0.286275</vpEnv:g>
+        <vpEnv:b>0.149020</vpEnv:b>
+        <vpEnv:a>1.000000</vpEnv:a>
+    </vpEnv:setGroundColor>
+    <vpEnv:setGroundEnable>true</vpEnv:setGroundEnable>
+    <vpEnv:setVisibilityRangeRatio>
+        <vpEnv:row>0</vpEnv:row>
+        <vpEnv:ratio>0.100000</vpEnv:ratio>
+    </vpEnv:setVisibilityRangeRatio>
+    <vpEnv:setVisibilityRangeRatio>
+        <vpEnv:row>1</vpEnv:row>
+        <vpEnv:ratio>0.300000</vpEnv:ratio>
+    </vpEnv:setVisibilityRangeRatio>
+    <vpEnv:setVisibilityRangeRatio>
+        <vpEnv:row>2</vpEnv:row>
+        <vpEnv:ratio>0.750000</vpEnv:ratio>
+    </vpEnv:setVisibilityRangeRatio>
+    <vpEnv:setVisibilityRangeRatio>
+        <vpEnv:row>3</vpEnv:row>
+        <vpEnv:ratio>0.900000</vpEnv:ratio>
+    </vpEnv:setVisibilityRangeRatio>
+    <vpEnv:setVisibilityRangeRatio>
+        <vpEnv:row>4</vpEnv:row>
+        <vpEnv:ratio>1.000000</vpEnv:ratio>
+    </vpEnv:setVisibilityRangeRatio>
+    <vpEnv:setVisibilityRangeRatio>
+        <vpEnv:row>5</vpEnv:row>
+        <vpEnv:ratio>1.000000</vpEnv:ratio>
+    </vpEnv:setVisibilityRangeRatio>
+    <vpEnv:setVisibilityRangeRatio>
+        <vpEnv:row>6</vpEnv:row>
+        <vpEnv:ratio>1.000000</vpEnv:ratio>
+    </vpEnv:setVisibilityRangeRatio>
+</vpEnv:EnvSkyDome>
+
+<vpEnv:EnvCloudLayer2D name="myEnvCloudLayer">
+    <vpEnv:setEnable>true</vpEnv:setEnable>
+    <vpEnv:setColor>
+        <vpEnv:r>0.300000</vpEnv:r>
+        <vpEnv:g>0.300000</vpEnv:g>
+        <vpEnv:b>0.300000</vpEnv:b>
+        <vpEnv:a>1.000000</vpEnv:a>
+    </vpEnv:setColor>
+    <vpEnv:setElevation>
+        <vpEnv:bottom>5000.000000</vpEnv:bottom>
+        <vpEnv:top>6000.000000</vpEnv:top>
+    </vpEnv:setElevation>
+    <vpEnv:setCoverageScale>0.250000</vpEnv:setCoverageScale>
+    <vpEnv:setGeometryEnable>true</vpEnv:setGeometryEnable>
+    <vpEnv:setEnvHazeColorScale>0.000000</vpEnv:setEnvHazeColorScale>
+    <vpEnv:setTransitionRange>
+        <vpEnv:bottom>500.000000</vpEnv:bottom>
+        <vpEnv:top>500.000000</vpEnv:top>
+    </vpEnv:setTransitionRange>
+    <vpEnv:setScudEnable>false</vpEnv:setScudEnable>
+    <vpEnv:setTextureFile></vpEnv:setTextureFile>
+    <vpEnv:setTextureBlendColor>
+        <vpEnv:r>1.000000</vpEnv:r>
+        <vpEnv:g>1.000000</vpEnv:g>
+        <vpEnv:b>1.000000</vpEnv:b>
+        <vpEnv:a>1.000000</vpEnv:a>
+    </vpEnv:setTextureBlendColor>
+    <vpEnv:setTextureBlendMode>TEXTURE_BLEND_MODE_MODULATE</vpEnv:setTextureBlendMode>
+    <vpEnv:setTextureTiling>
+        <vpEnv:x>2.000000</vpEnv:x>
+        <vpEnv:y>2.000000</vpEnv:y>
+    </vpEnv:setTextureTiling>
+    <vpEnv:setMinVisibilityScale>0.000000</vpEnv:setMinVisibilityScale>
+    <vpEnv:setHorizonColorScale>1.000000</vpEnv:setHorizonColorScale>
+    <vpEnv:setShadowsEnable>false</vpEnv:setShadowsEnable>
+    <vpEnv:setShadowsColorPunchThrough>0.300000</vpEnv:setShadowsColorPunchThrough>
+    <vpEnv:setShadowIntensity>0.600000</vpEnv:setShadowIntensity>
+    <vpEnv:setShadowsContribution>
+        <vpEnv:minimum>0.100000</vpEnv:minimum>
+        <vpEnv:maximum>0.900000</vpEnv:maximum>
+    </vpEnv:setShadowsContribution>
+</vpEnv:EnvCloudLayer2D>
+
+<vpEnv:EnvStars name="myEnvStars">
+    <vpEnv:setEnable>true</vpEnv:setEnable>
+    <vpEnv:setIntensityThreshold>0.350000</vpEnv:setIntensityThreshold>
+    <vpEnv:setBrightnessThreshold>
+        <vpEnv:onset>0.400000</vpEnv:onset>
+        <vpEnv:opaque>0.250000</vpEnv:opaque>
+    </vpEnv:setBrightnessThreshold>
+    <vpEnv:setVisibilityRangeRatio>0.100000</vpEnv:setVisibilityRangeRatio>
+    <vpEnv:setPointSize>2.300000</vpEnv:setPointSize>
+</vpEnv:EnvStars>
+
+<vpEnv:EnvWind name="myEnvWind">
+    <vpEnv:setEnable>true</vpEnv:setEnable>
+    <vpEnv:setSpeed>100.000000</vpEnv:setSpeed>
+    <vpEnv:setDirection>
+        <vpEnv:x>0.000000</vpEnv:x>
+        <vpEnv:y>1.000000</vpEnv:y>
+        <vpEnv:z>0.000000</vpEnv:z>
+    </vpEnv:setDirection>
+</vpEnv:EnvWind>
+
+<vpEnv:EnvWindLayer name="myEnvWindLayer">
+    <vpEnv:setEnable>true</vpEnv:setEnable>
+    <vpEnv:setSpeed>0.000000</vpEnv:setSpeed>
+    <vpEnv:setDirection>
+        <vpEnv:x>0.000000</vpEnv:x>
+        <vpEnv:y>1.000000</vpEnv:y>
+        <vpEnv:z>0.000000</vpEnv:z>
+    </vpEnv:setDirection>
+    <vpEnv:setElevation>
+        <vpEnv:bottom>3000.000000</vpEnv:bottom>
+        <vpEnv:top>5000.000000</vpEnv:top>
+    </vpEnv:setElevation>
+</vpEnv:EnvWindLayer>
+
+<vpMotion:MotionUFO name="myMotion">
+    <vpMotion:setSpeed>10</vpMotion:setSpeed>
+    <vpMotion:setBoost>50</vpMotion:setBoost>
+    <vpMotion:setBoostTurning>5</vpMotion:setBoostTurning>
+    <vpMotion:setRateHeading>40</vpMotion:setRateHeading>
+    <vpMotion:setRatePitch>20</vpMotion:setRatePitch>
+</vpMotion:MotionUFO>
+
+<vpVortex:VxUniverse name="myVxUniverse">
+    <vpVortex:setTimeStep>0.0166</vpVortex:setTimeStep>
+    <vpVortex:setGravity>
+        <vpVortex:x>0</vpVortex:x>
+        <vpVortex:y>0</vpVortex:y>
+        <vpVortex:z>-9.81</vpVortex:z>
+    </vpVortex:setGravity>
+    <vpVortex:addMechanism refTo="VxMechanism::MaterialTable"></vpVortex:addMechanism>
+    <vpVortex:addMechanism refTo="VxMechanism::LAV"></vpVortex:addMechanism>
+    <vpVortex:addMechanism refTo="VxMechanism::Terrain"></vpVortex:addMechanism>
+    <vpVortex:setSteppingEnable>true</vpVortex:setSteppingEnable>
+    <vpVortex:setScene refTo="Scene::myScene"></vpVortex:setScene>
+</vpVortex:VxUniverse>
+
+<vpVortex:VxMechanism name="MaterialTable">
+    <vp:setPosition>
+        <vp:x>0</vp:x>
+        <vp:y>0</vp:y>
+        <vp:z>0</vp:z>
+    </vp:setPosition>
+    <vp:setOrientation>
+        <vp:h>-0</vp:h>
+        <vp:p>0</vp:p>
+        <vp:r>-0</vp:r>
+    </vp:setOrientation>
+    <vp:setStaticEnable>false</vp:setStaticEnable>
+    <vp:setFileName></vp:setFileName>
+    <vp:setAutoPage>AUTO_PAGE_SYNCHRONOUS</vp:setAutoPage>
+    <vp:setLoaderOption>
+        <vp:option>LOADER_OPTION_PRESERVE_GENERIC_NAMES</vp:option>
+        <vp:value>true</vp:value>
+    </vp:setLoaderOption>
+    <vpVortex:setMechanismFilename>Models/Scene/Scene_MaterialTable_forACF.vxm</vpVortex:setMechanismFilename>
+</vpVortex:VxMechanism>
+
+<vpVortex:VxMechanism name="LAV">
+    <vp:setPosition>
+        <vp:x>2.05126</vp:x>
+        <vp:y>1.03801</vp:y>
+        <vp:z>0.577658</vp:z>
+    </vp:setPosition>
+    <vp:setOrientation>
+        <vp:h>-0</vp:h>
+        <vp:p>0</vp:p>
+        <vp:r>-0.0872665</vp:r>
+    </vp:setOrientation>
+    <vp:setStaticEnable>false</vp:setStaticEnable>
+    <vp:setFileName>Models/LAV/Graphic/LAV_VP.flt</vp:setFileName>
+    <vp:setAutoPage>AUTO_PAGE_SYNCHRONOUS</vp:setAutoPage>
+    <vp:setLoaderOption>
+        <vp:option>LOADER_OPTION_PRESERVE_GENERIC_NAMES</vp:option>
+        <vp:value>true</vp:value>
+    </vp:setLoaderOption>
+    <vpVortex:setMechanismFilename>Models/Scene/Scene_LAV_forACF.vxm</vpVortex:setMechanismFilename>
+</vpVortex:VxMechanism>
+
+<vpVortex:VxMechanism name="Terrain">
+    <vp:setPosition>
+        <vp:x>0</vp:x>
+        <vp:y>0</vp:y>
+        <vp:z>0</vp:z>
+    </vp:setPosition>
+    <vp:setOrientation>
+        <vp:h>-0</vp:h>
+        <vp:p>0</vp:p>
+        <vp:r>-0</vp:r>
+    </vp:setOrientation>
+    <vp:setStaticEnable>false</vp:setStaticEnable>
+    <vp:setFileName>Models/Terrain/Graphics/tertest3.flt</vp:setFileName>
+    <vp:setAutoPage>AUTO_PAGE_SYNCHRONOUS</vp:setAutoPage>
+    <vp:setLoaderOption>
+        <vp:option>LOADER_OPTION_PRESERVE_GENERIC_NAMES</vp:option>
+        <vp:value>true</vp:value>
+    </vp:setLoaderOption>
+    <vpVortex:setMechanismFilename>Models/Scene/Scene_Terrain_forACF.vxm</vpVortex:setMechanismFilename>
+</vpVortex:VxMechanism>
+
+</AcfRoot>

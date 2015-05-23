@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<AcfRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" 
+urn://www.multigen-paradigm.com mpi.xsd" 
+xmlns="urn://www.multigen-paradigm.com" 
+    xmlns:vp="urn://www.multigen-paradigm.com/vp" 
+    xmlns:vpVortex="urn://www.cm-labs.com/vpVortex"> 
+<vp:AcfInfo name="Mechanism.acf"> 
+    <vp:initializeModule>vpVortex</vp:initializeModule> 
+    <vp:autoEnable>true</vp:autoEnable> 
+    <vp:appToRun></vp:appToRun> 
+    <vp:appToRunArgs>$ACF</vp:appToRunArgs> 
+    <vp:comment></vp:comment> 
+    <vp:createdByVersion>6.0.0</vp:createdByVersion> 
+    <vp:schemaVersion>12</vp:schemaVersion>
+</vp:AcfInfo> 
+
+
+<vpVortex:VxMechanism name="Mechanism">
+    
+    <vp:setPosition>
+        <vp:x>2.05126</vp:x>
+        <vp:y>1.03801</vp:y>
+        <vp:z>0.577658</vp:z>
+    </vp:setPosition>
+    <vp:setOrientation>
+        <vp:h>-0</vp:h>
+        <vp:p>0</vp:p>
+        <vp:r>-0.0872665</vp:r>
+    </vp:setOrientation>
+    <vp:setStaticEnable>false</vp:setStaticEnable>
+    <vp:setFileName>D:/project/project61/Resources/Models/LAV/Graphic/LAV_VP.flt</vp:setFileName>
+    <vp:setAutoPage>AUTO_PAGE_SYNCHRONOUS</vp:setAutoPage>
+    <vp:setLoaderOption>
+        <vp:option>LOADER_OPTION_PRESERVE_GENERIC_NAMES</vp:option>
+        <vp:value>true</vp:value>
+    </vp:setLoaderOption>
+    <vpVortex:setMechanismFilename>D:/project/project61/Resources/Models/LAV/Mechanism_forACF.vxm</vpVortex:setMechanismFilename>
+</vpVortex:VxMechanism>
+
+ 
+</AcfRoot>

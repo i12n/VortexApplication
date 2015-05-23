@@ -1,0 +1,1983 @@
+<!--Vx62?X10000000000001--><?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="8">
+<File class_id="0" tracking_level="1" version="520101122" object_id="_0">
+	<Description></Description>
+	<VortexInformation>CMLabs Simulations Inc. Vortex SDK 6.2.0.0 Tue May 19 16:46:48 2015
+</VortexInformation>
+	<Vx__VxBase class_id="1" tracking_level="1" version="520100709" object_id="_1">
+		<Name>VxFile</Name>
+	</Vx__VxBase>
+	<References class_id="2" tracking_level="0" version="0">
+		<size>1</size>
+		<item class_id="4" class_name="VxPersistence::VxDesignFileReference" tracking_level="1" version="620130220" object_id="_2">
+			<VxBase object_id="_3">
+				<Name>D__project_project61_Resources_Models_LAV_Mechanism_Assembly.vxassembly</Name>
+			</VxBase>
+			<SaveAsReference>1</SaveAsReference>
+			<filename>Mechanism_Assembly.vxassembly</filename>
+			<State class_id="-1"></State>
+		</item>
+	</References>
+	<Sections class_id="5" tracking_level="0" version="0">
+		<size>2</size>
+		<item class_id="6" class_name="VxPersistence::VxGraphicSection" tracking_level="1" version="620130508" object_id="_4">
+			<VxFileSection class_id="7" tracking_level="0" version="0">
+				<Vx__VxBase object_id="_5">
+					<Name>default_VxGraphicSection_188706</Name>
+				</Vx__VxBase>
+			</VxFileSection>
+			<assets class_id="8" tracking_level="0" version="0">
+				<size>0</size>
+			</assets>
+		</item>
+		<item class_id="9" class_name="VxPersistence::VxMechanismTypeSection" tracking_level="1" version="620120814" object_id="_6">
+			<VxFileSection>
+				<Vx__VxBase object_id="_7">
+					<Name>default_VxMechanismTypeSection_188707</Name>
+				</Vx__VxBase>
+			</VxFileSection>
+			<GraphicSection class_id_reference="6" object_id_reference="_4"></GraphicSection>
+			<MechanismType class_id="10" tracking_level="1" version="620140606" object_id="_8">
+				<Object class_id="11" tracking_level="1" version="620140217" object_id="_9">
+					<VxDesign__IObject class_id="12" tracking_level="0" version="620130402">
+						<Vx__VxBaseUserData class_id="13" tracking_level="0" version="620130426">
+							<VxBase object_id="_10">
+								<Name>Mechanism</Name>
+							</VxBase>
+							<UserData class_id="14" tracking_level="0" version="620130426">
+								<Size>6</Size>
+								<Item class_id="15" tracking_level="0" version="620130426">
+									<Name>CenterOfMass</Name>
+									<Type>1</Type>
+									<Value>0</Value>
+								</Item>
+								<Item>
+									<Name>CollisionGeometry</Name>
+									<Type>1</Type>
+									<Value>1</Value>
+								</Item>
+								<Item>
+									<Name>Constraint</Name>
+									<Type>1</Type>
+									<Value>0</Value>
+								</Item>
+								<Item>
+									<Name>InertiaTensor</Name>
+									<Type>1</Type>
+									<Value>0</Value>
+								</Item>
+								<Item>
+									<Name>Node</Name>
+									<Type>8</Type>
+								</Item>
+								<Item>
+									<Name>Origin</Name>
+									<Type>1</Type>
+									<Value>0</Value>
+								</Item>
+							</UserData>
+						</Vx__VxBaseUserData>
+					</VxDesign__IObject>
+					<ID>760b3b38-91e0-4f3a-9e99-28a7575b7bcb</ID>
+					<Children class_id="16" tracking_level="0" version="0">
+						<size>5</size>
+						<item class_id="17" class_name="CollisionDetectionRuleContainer" tracking_level="1" version="620130829" object_id="_11">
+							<VxDesign__Object object_id="_12">
+								<VxDesign__IObject>
+									<Vx__VxBaseUserData>
+										<VxBase object_id="_13">
+											<Name>Collision Detection Rules</Name>
+										</VxBase>
+										<UserData>
+											<Size>5</Size>
+											<Item>
+												<Name>CenterOfMass</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>CollisionGeometry</Name>
+												<Type>1</Type>
+												<Value>1</Value>
+											</Item>
+											<Item>
+												<Name>Constraint</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>InertiaTensor</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>Origin</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+										</UserData>
+									</Vx__VxBaseUserData>
+								</VxDesign__IObject>
+								<ID>f263a28b-6c33-4782-98b1-ec165eb42c3e</ID>
+								<Children>
+									<size>0</size>
+								</Children>
+								<Attribute>0</Attribute>
+								<TreePath></TreePath>
+							</VxDesign__Object>
+						</item>
+						<item class_id="18" class_name="VxDesign::ConnectionContainer" tracking_level="1" version="620130805" object_id="_14">
+							<VxDesign__Object object_id="_15">
+								<VxDesign__IObject>
+									<Vx__VxBaseUserData>
+										<VxBase object_id="_16">
+											<Name>Connections</Name>
+										</VxBase>
+										<UserData>
+											<Size>5</Size>
+											<Item>
+												<Name>CenterOfMass</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>CollisionGeometry</Name>
+												<Type>1</Type>
+												<Value>1</Value>
+											</Item>
+											<Item>
+												<Name>Constraint</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>InertiaTensor</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>Origin</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+										</UserData>
+									</Vx__VxBaseUserData>
+								</VxDesign__IObject>
+								<ID>5f7e0542-7ad2-476c-ad95-c463e15bcb45</ID>
+								<Children>
+									<size>0</size>
+								</Children>
+								<Attribute>0</Attribute>
+								<TreePath></TreePath>
+							</VxDesign__Object>
+						</item>
+						<item class_id="19" class_name="VxDesign::EdHierarchy" tracking_level="1" version="620140217" object_id="_17">
+							<VxDesign__Object object_id="_18">
+								<VxDesign__IObject>
+									<Vx__VxBaseUserData>
+										<VxBase object_id="_19">
+											<Name>ed_hierarchy</Name>
+										</VxBase>
+										<UserData>
+											<Size>5</Size>
+											<Item>
+												<Name>CenterOfMass</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>CollisionGeometry</Name>
+												<Type>1</Type>
+												<Value>1</Value>
+											</Item>
+											<Item>
+												<Name>Constraint</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>InertiaTensor</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>Origin</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+										</UserData>
+									</Vx__VxBaseUserData>
+								</VxDesign__IObject>
+								<ID>e1eb5992-5905-4640-ac2e-1e23c7599b34</ID>
+								<Children>
+									<size>0</size>
+								</Children>
+								<Attribute>0</Attribute>
+								<TreePath></TreePath>
+							</VxDesign__Object>
+							<Items class_id="20" tracking_level="0" version="0">
+								<size>4</size>
+								<item class_id="21" tracking_level="0" version="0">
+									<Target class_id="22" tracking_level="0" version="0">
+										<Path>base:///../f263a28b-6c33-4782-98b1-ec165eb42c3e</Path>
+									</Target>
+								</item>
+								<item>
+									<Target>
+										<Path>base:///../5f7e0542-7ad2-476c-ad95-c463e15bcb45</Path>
+									</Target>
+								</item>
+								<item>
+									<Target>
+										<Path>base:///../21a8dffa-73b4-4fce-b2b0-1515ee43ca77</Path>
+									</Target>
+								</item>
+								<item>
+									<Target>
+										<Path>base:///../b31f8806-4211-45bf-8136-3aa6d6258bfc</Path>
+									</Target>
+								</item>
+							</Items>
+						</item>
+						<item class_id="23" class_name="VxDesign::EdFolder" tracking_level="1" version="620140217" object_id="_20">
+							<VxDesign__Object object_id="_21">
+								<VxDesign__IObject>
+									<Vx__VxBaseUserData>
+										<VxBase object_id="_22">
+											<Name>Assemblies</Name>
+										</VxBase>
+										<UserData>
+											<Size>5</Size>
+											<Item>
+												<Name>CenterOfMass</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>CollisionGeometry</Name>
+												<Type>1</Type>
+												<Value>1</Value>
+											</Item>
+											<Item>
+												<Name>Constraint</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>InertiaTensor</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>Origin</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+										</UserData>
+									</Vx__VxBaseUserData>
+								</VxDesign__IObject>
+								<ID>21a8dffa-73b4-4fce-b2b0-1515ee43ca77</ID>
+								<Children>
+									<size>1</size>
+									<item class_id_reference="19" object_id="_23">
+										<VxDesign__Object object_id="_24">
+											<VxDesign__IObject>
+												<Vx__VxBaseUserData>
+													<VxBase object_id="_25">
+														<Name>ed_hierarchy</Name>
+													</VxBase>
+													<UserData>
+														<Size>5</Size>
+														<Item>
+															<Name>CenterOfMass</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>CollisionGeometry</Name>
+															<Type>1</Type>
+															<Value>1</Value>
+														</Item>
+														<Item>
+															<Name>Constraint</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>InertiaTensor</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>Origin</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+													</UserData>
+												</Vx__VxBaseUserData>
+											</VxDesign__IObject>
+											<ID>94c3da7e-03c0-46e3-9cd1-1aea0ecad6d7</ID>
+											<Children>
+												<size>0</size>
+											</Children>
+											<Attribute>0</Attribute>
+											<TreePath></TreePath>
+										</VxDesign__Object>
+										<Items>
+											<size>1</size>
+											<item>
+												<Target>
+													<Path>base:///../../4a616690-22e1-49ff-b599-5707dc165ac8</Path>
+												</Target>
+											</item>
+										</Items>
+									</item>
+								</Children>
+								<Attribute>2</Attribute>
+								<TreePath></TreePath>
+							</VxDesign__Object>
+						</item>
+						<item class_id_reference="23" object_id="_26">
+							<VxDesign__Object object_id="_27">
+								<VxDesign__IObject>
+									<Vx__VxBaseUserData>
+										<VxBase object_id="_28">
+											<Name>Skins</Name>
+										</VxBase>
+										<UserData>
+											<Size>5</Size>
+											<Item>
+												<Name>CenterOfMass</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>CollisionGeometry</Name>
+												<Type>1</Type>
+												<Value>1</Value>
+											</Item>
+											<Item>
+												<Name>Constraint</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>InertiaTensor</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>Origin</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+										</UserData>
+									</Vx__VxBaseUserData>
+								</VxDesign__IObject>
+								<ID>b31f8806-4211-45bf-8136-3aa6d6258bfc</ID>
+								<Children>
+									<size>1</size>
+									<item class_id_reference="19" object_id="_29">
+										<VxDesign__Object object_id="_30">
+											<VxDesign__IObject>
+												<Vx__VxBaseUserData>
+													<VxBase object_id="_31">
+														<Name>ed_hierarchy</Name>
+													</VxBase>
+													<UserData>
+														<Size>5</Size>
+														<Item>
+															<Name>CenterOfMass</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>CollisionGeometry</Name>
+															<Type>1</Type>
+															<Value>1</Value>
+														</Item>
+														<Item>
+															<Name>Constraint</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>InertiaTensor</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>Origin</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+													</UserData>
+												</Vx__VxBaseUserData>
+											</VxDesign__IObject>
+											<ID>e90e8b41-f531-4ae6-9e55-dce4dcc1f783</ID>
+											<Children>
+												<size>0</size>
+											</Children>
+											<Attribute>0</Attribute>
+											<TreePath></TreePath>
+										</VxDesign__Object>
+										<Items>
+											<size>1</size>
+											<item>
+												<Target>
+													<Path>base:///../../d72c00c1-102d-4de2-a017-65eb06498446</Path>
+												</Target>
+											</item>
+										</Items>
+									</item>
+								</Children>
+								<Attribute>2</Attribute>
+								<TreePath></TreePath>
+							</VxDesign__Object>
+						</item>
+					</Children>
+					<Attribute>2</Attribute>
+					<TreePath></TreePath>
+				</Object>
+				<AssemblyInstances class_id="24" tracking_level="0" version="0">
+					<ids class_id="25" tracking_level="0" version="0">
+						<size>1</size>
+						<item>4a616690-22e1-49ff-b599-5707dc165ac8</item>
+					</ids>
+					<values class_id="26" tracking_level="0" version="0">
+						<size>1</size>
+						<item class_id="27" tracking_level="1" version="620140320" object_id="_32">
+							<AssemblyTypeBaseReference class_id="28" tracking_level="0" version="0">
+								<Path>base:///VxDesignFileReference/D__project_project61_Resources_Models_LAV_Mechanism_Assembly.vxassembly</Path>
+							</AssemblyTypeBaseReference>
+							<Object object_id="_33">
+								<VxDesign__IObject>
+									<Vx__VxBaseUserData>
+										<VxBase object_id="_34">
+											<Name>Assembly</Name>
+										</VxBase>
+										<UserData>
+											<Size>6</Size>
+											<Item>
+												<Name>CenterOfMass</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>CollisionGeometry</Name>
+												<Type>1</Type>
+												<Value>1</Value>
+											</Item>
+											<Item>
+												<Name>Constraint</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>InertiaTensor</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>Node</Name>
+												<Type>8</Type>
+											</Item>
+											<Item>
+												<Name>Origin</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+										</UserData>
+									</Vx__VxBaseUserData>
+								</VxDesign__IObject>
+								<ID>4a616690-22e1-49ff-b599-5707dc165ac8</ID>
+								<Children>
+									<size>0</size>
+								</Children>
+								<Attribute>2</Attribute>
+								<TreePath>Assemblies</TreePath>
+							</Object>
+							<Position class_id="29" tracking_level="0" version="2">
+								<x>0</x>
+								<y>0</y>
+								<z>0</z>
+							</Position>
+							<Orientation>
+								<x>-0</x>
+								<y>0</y>
+								<z>-0</z>
+							</Orientation>
+						</item>
+					</values>
+				</AssemblyInstances>
+				<Attachments class_id="30" tracking_level="0" version="0">
+					<ids>
+						<size>0</size>
+					</ids>
+					<values class_id="31" tracking_level="0" version="0">
+						<size>0</size>
+					</values>
+				</Attachments>
+				<GraphicAssets class_id="32" tracking_level="0" version="0">
+					<ids>
+						<size>1</size>
+						<item>4dadea40-985b-4e2b-8324-f75eb36283ac</item>
+					</ids>
+					<values class_id="33" tracking_level="0" version="0">
+						<size>1</size>
+						<item class_id="34" class_name="VxSim::VxPluginExtension" tracking_level="1" version="620140129" object_id="_35">
+							<VxExtension class_id="35" tracking_level="0" version="620140314">
+								<VxBase object_id="_36">
+									<Name>LAV_VP</Name>
+								</VxBase>
+								<OwnedFields class_id="36" tracking_level="0" version="0">
+									<size>0</size>
+								</OwnedFields>
+								<InternalData class_id="37" tracking_level="0" version="1">
+									<px class_id="38" tracking_level="1" version="0" object_id="_37">
+										<FieldBase class_id="39" tracking_level="1" version="620130911" object_id="_38">
+											<name class_id="40" tracking_level="0" version="0">
+												<id>ControllerFields</id>
+											</name>
+											<container class_id="-1"></container>
+											<deletable>1</deletable>
+											<dimension>0</dimension>
+											<visible>1</visible>
+											<description></description>
+										</FieldBase>
+										<Children class_id="41" tracking_level="0" version="0">
+											<size>3</size>
+											<item class_id_reference="38" object_id="_39">
+												<FieldBase object_id="_40">
+													<name>
+														<id>Inputs</id>
+													</name>
+													<container class_id_reference="38" object_id_reference="_37"></container>
+													<deletable>1</deletable>
+													<dimension>0</dimension>
+													<visible>1</visible>
+													<description></description>
+												</FieldBase>
+												<Children>
+													<size>6</size>
+													<item class_id="42" class_name="VxInput_bool_" tracking_level="1" version="0" object_id="_41">
+														<InputOutputTemplate class_id="43" tracking_level="1" version="620131127" object_id="_42">
+															<Field_Template class_id="44" tracking_level="1" version="620131127" object_id="_43">
+																<FieldBase object_id="_44">
+																	<name>
+																		<id>CastShadow</id>
+																	</name>
+																	<container class_id_reference="38" object_id_reference="_39"></container>
+																	<deletable>1</deletable>
+																	<dimension>0</dimension>
+																	<visible>1</visible>
+																	<description></description>
+																</FieldBase>
+																<value>0</value>
+																<forceObservers>0</forceObservers>
+																<Has_Range>0</Has_Range>
+															</Field_Template>
+														</InputOutputTemplate>
+													</item>
+													<item class_id_reference="42" object_id="_45">
+														<InputOutputTemplate object_id="_46">
+															<Field_Template object_id="_47">
+																<FieldBase object_id="_48">
+																	<name>
+																		<id>ReceiveShadow</id>
+																	</name>
+																	<container class_id_reference="38" object_id_reference="_39"></container>
+																	<deletable>1</deletable>
+																	<dimension>0</dimension>
+																	<visible>1</visible>
+																	<description></description>
+																</FieldBase>
+																<value>1</value>
+																<forceObservers>0</forceObservers>
+																<Has_Range>0</Has_Range>
+															</Field_Template>
+														</InputOutputTemplate>
+													</item>
+													<item class_id_reference="42" object_id="_49">
+														<InputOutputTemplate object_id="_50">
+															<Field_Template object_id="_51">
+																<FieldBase object_id="_52">
+																	<name>
+																		<id>Visible</id>
+																	</name>
+																	<container class_id_reference="38" object_id_reference="_39"></container>
+																	<deletable>1</deletable>
+																	<dimension>0</dimension>
+																	<visible>1</visible>
+																	<description></description>
+																</FieldBase>
+																<value>1</value>
+																<forceObservers>0</forceObservers>
+																<Has_Range>0</Has_Range>
+															</Field_Template>
+														</InputOutputTemplate>
+													</item>
+													<item class_id="45" class_name="VxInput_Vx::VxVector3_" tracking_level="1" version="0" object_id="_53">
+														<InputOutputTemplate class_id="46" tracking_level="1" version="620131127" object_id="_54">
+															<Field_Template class_id="47" tracking_level="1" version="620131127" object_id="_55">
+																<FieldBase object_id="_56">
+																	<name>
+																		<id>Position</id>
+																	</name>
+																	<container class_id_reference="38" object_id_reference="_39"></container>
+																	<deletable>1</deletable>
+																	<dimension>1</dimension>
+																	<visible>1</visible>
+																	<description></description>
+																</FieldBase>
+																<value class_id="48" tracking_level="1" version="2" object_id="_57">
+																	<x>0</x>
+																	<y>0</y>
+																	<z>0</z>
+																</value>
+																<forceObservers>0</forceObservers>
+																<Has_Range>0</Has_Range>
+															</Field_Template>
+														</InputOutputTemplate>
+													</item>
+													<item class_id_reference="45" object_id="_58">
+														<InputOutputTemplate object_id="_59">
+															<Field_Template object_id="_60">
+																<FieldBase object_id="_61">
+																	<name>
+																		<id>Orientation</id>
+																	</name>
+																	<container class_id_reference="38" object_id_reference="_39"></container>
+																	<deletable>1</deletable>
+																	<dimension>5</dimension>
+																	<visible>1</visible>
+																	<description></description>
+																</FieldBase>
+																<value object_id="_62">
+																	<x>0</x>
+																	<y>0</y>
+																	<z>0</z>
+																</value>
+																<forceObservers>0</forceObservers>
+																<Has_Range>0</Has_Range>
+															</Field_Template>
+														</InputOutputTemplate>
+													</item>
+													<item class_id_reference="45" object_id="_63">
+														<InputOutputTemplate object_id="_64">
+															<Field_Template object_id="_65">
+																<FieldBase object_id="_66">
+																	<name>
+																		<id>Scale</id>
+																	</name>
+																	<container class_id_reference="38" object_id_reference="_39"></container>
+																	<deletable>1</deletable>
+																	<dimension>0</dimension>
+																	<visible>1</visible>
+																	<description></description>
+																</FieldBase>
+																<value object_id="_67">
+																	<x>1</x>
+																	<y>1</y>
+																	<z>1</z>
+																</value>
+																<forceObservers>0</forceObservers>
+																<Has_Range>0</Has_Range>
+															</Field_Template>
+														</InputOutputTemplate>
+													</item>
+												</Children>
+											</item>
+											<item class_id_reference="38" object_id="_68">
+												<FieldBase object_id="_69">
+													<name>
+														<id>Outputs</id>
+													</name>
+													<container class_id_reference="38" object_id_reference="_37"></container>
+													<deletable>1</deletable>
+													<dimension>0</dimension>
+													<visible>1</visible>
+													<description></description>
+												</FieldBase>
+												<Children>
+													<size>2</size>
+													<item class_id="49" class_name="VxOutput_Vx::VxVector3_" tracking_level="1" version="0" object_id="_70">
+														<InputOutputTemplate object_id="_71">
+															<Field_Template object_id="_72">
+																<FieldBase object_id="_73">
+																	<name>
+																		<id>Position</id>
+																	</name>
+																	<container class_id_reference="38" object_id_reference="_68"></container>
+																	<deletable>1</deletable>
+																	<dimension>1</dimension>
+																	<visible>1</visible>
+																	<description></description>
+																</FieldBase>
+																<value object_id="_74">
+																	<x>0</x>
+																	<y>0</y>
+																	<z>0</z>
+																</value>
+																<forceObservers>0</forceObservers>
+																<Has_Range>0</Has_Range>
+															</Field_Template>
+														</InputOutputTemplate>
+													</item>
+													<item class_id_reference="49" object_id="_75">
+														<InputOutputTemplate object_id="_76">
+															<Field_Template object_id="_77">
+																<FieldBase object_id="_78">
+																	<name>
+																		<id>Orientation</id>
+																	</name>
+																	<container class_id_reference="38" object_id_reference="_68"></container>
+																	<deletable>1</deletable>
+																	<dimension>5</dimension>
+																	<visible>1</visible>
+																	<description></description>
+																</FieldBase>
+																<value object_id="_79">
+																	<x>0</x>
+																	<y>0</y>
+																	<z>0</z>
+																</value>
+																<forceObservers>0</forceObservers>
+																<Has_Range>0</Has_Range>
+															</Field_Template>
+														</InputOutputTemplate>
+													</item>
+												</Children>
+											</item>
+											<item class_id_reference="38" object_id="_80">
+												<FieldBase object_id="_81">
+													<name>
+														<id>Parameters</id>
+													</name>
+													<container class_id_reference="38" object_id_reference="_37"></container>
+													<deletable>1</deletable>
+													<dimension>0</dimension>
+													<visible>1</visible>
+													<description></description>
+												</FieldBase>
+												<Children>
+													<size>3</size>
+													<item class_id="50" class_name="VxParameter_VxNode" tracking_level="1" version="0" object_id="_82">
+														<Field_Template class_id="51" tracking_level="1" version="620131127" object_id="_83">
+															<Field_Template class_id="52" tracking_level="1" version="520120703" object_id="_84">
+																<FieldBase object_id="_85">
+																	<name>
+																		<id>AttachmentNode</id>
+																	</name>
+																	<container class_id_reference="38" object_id_reference="_80"></container>
+																	<deletable>1</deletable>
+																	<dimension>0</dimension>
+																	<visible>0</visible>
+																	<description></description>
+																</FieldBase>
+																<GraphicAsset>
+																	<Path></Path>
+																</GraphicAsset>
+																<Node></Node>
+																<forceObservers>0</forceObservers>
+															</Field_Template>
+														</Field_Template>
+													</item>
+													<item class_id="53" class_name="VxParameter_Vx::VxFilename_" tracking_level="1" version="0" object_id="_86">
+														<Field_Template class_id="54" tracking_level="1" version="620131127" object_id="_87">
+															<Field_Template class_id="55" tracking_level="1" version="620131127" object_id="_88">
+																<FieldBase object_id="_89">
+																	<name>
+																		<id>Filename</id>
+																	</name>
+																	<container class_id_reference="38" object_id_reference="_80"></container>
+																	<deletable>1</deletable>
+																	<dimension>0</dimension>
+																	<visible>1</visible>
+																	<description></description>
+																</FieldBase>
+																<value class_id="56" tracking_level="0" version="520121031">
+																	<filename>Graphic/LAV_VP.flt</filename>
+																</value>
+																<forceObservers>0</forceObservers>
+																<Has_Range>0</Has_Range>
+															</Field_Template>
+														</Field_Template>
+													</item>
+													<item class_id="57" class_name="VxData_FieldArray_Container" tracking_level="1" version="0" object_id="_90">
+														<Container object_id="_91">
+															<FieldBase object_id="_92">
+																<name>
+																	<id>PartNode Mapping</id>
+																</name>
+																<container class_id_reference="38" object_id_reference="_80"></container>
+																<deletable>1</deletable>
+																<dimension>0</dimension>
+																<visible>1</visible>
+																<description></description>
+															</FieldBase>
+															<Children>
+																<size>9</size>
+																<item class_id_reference="38" object_id="_93">
+																	<FieldBase object_id="_94">
+																		<name>
+																			<id>0</id>
+																		</name>
+																		<container class_id_reference="57" object_id_reference="_90"></container>
+																		<deletable>1</deletable>
+																		<dimension>0</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<Children>
+																		<size>2</size>
+																		<item class_id_reference="52" object_id="_95">
+																			<FieldBase object_id="_96">
+																				<name>
+																					<id>Node</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_93"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<GraphicAsset>
+																				<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+																			</GraphicAsset>
+																			<Node>WHEEL_1_DOF</Node>
+																			<forceObservers>0</forceObservers>
+																		</item>
+																		<item class_id="58" class_name="VxData::Field_pVxPart_" tracking_level="1" version="620131127" object_id="_97">
+																			<FieldBase object_id="_98">
+																				<name>
+																					<id>Part</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_93"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<value>
+																				<Path>base:///VxMechanismType/Mechanism/VxAssembly/Assembly/VxPart/WHEEL_1_DOF</Path>
+																			</value>
+																			<forceObservers>0</forceObservers>
+																			<Has_Range>0</Has_Range>
+																		</item>
+																	</Children>
+																</item>
+																<item class_id_reference="38" object_id="_99">
+																	<FieldBase object_id="_100">
+																		<name>
+																			<id>1</id>
+																		</name>
+																		<container class_id_reference="57" object_id_reference="_90"></container>
+																		<deletable>1</deletable>
+																		<dimension>0</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<Children>
+																		<size>2</size>
+																		<item class_id_reference="52" object_id="_101">
+																			<FieldBase object_id="_102">
+																				<name>
+																					<id>Node</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_99"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<GraphicAsset>
+																				<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+																			</GraphicAsset>
+																			<Node>WHEEL_3_DOF</Node>
+																			<forceObservers>0</forceObservers>
+																		</item>
+																		<item class_id_reference="58" object_id="_103">
+																			<FieldBase object_id="_104">
+																				<name>
+																					<id>Part</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_99"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<value>
+																				<Path>base:///VxMechanismType/Mechanism/VxAssembly/Assembly/VxPart/WHEEL_3_DOF</Path>
+																			</value>
+																			<forceObservers>0</forceObservers>
+																			<Has_Range>0</Has_Range>
+																		</item>
+																	</Children>
+																</item>
+																<item class_id_reference="38" object_id="_105">
+																	<FieldBase object_id="_106">
+																		<name>
+																			<id>2</id>
+																		</name>
+																		<container class_id_reference="57" object_id_reference="_90"></container>
+																		<deletable>1</deletable>
+																		<dimension>0</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<Children>
+																		<size>2</size>
+																		<item class_id_reference="52" object_id="_107">
+																			<FieldBase object_id="_108">
+																				<name>
+																					<id>Node</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_105"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<GraphicAsset>
+																				<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+																			</GraphicAsset>
+																			<Node>WHEEL_6_DOF</Node>
+																			<forceObservers>0</forceObservers>
+																		</item>
+																		<item class_id_reference="58" object_id="_109">
+																			<FieldBase object_id="_110">
+																				<name>
+																					<id>Part</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_105"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<value>
+																				<Path>base:///VxMechanismType/Mechanism/VxAssembly/Assembly/VxPart/WHEEL_6_DOF</Path>
+																			</value>
+																			<forceObservers>0</forceObservers>
+																			<Has_Range>0</Has_Range>
+																		</item>
+																	</Children>
+																</item>
+																<item class_id_reference="38" object_id="_111">
+																	<FieldBase object_id="_112">
+																		<name>
+																			<id>3</id>
+																		</name>
+																		<container class_id_reference="57" object_id_reference="_90"></container>
+																		<deletable>1</deletable>
+																		<dimension>0</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<Children>
+																		<size>2</size>
+																		<item class_id_reference="52" object_id="_113">
+																			<FieldBase object_id="_114">
+																				<name>
+																					<id>Node</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_111"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<GraphicAsset>
+																				<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+																			</GraphicAsset>
+																			<Node>WHEEL_5_DOF</Node>
+																			<forceObservers>0</forceObservers>
+																		</item>
+																		<item class_id_reference="58" object_id="_115">
+																			<FieldBase object_id="_116">
+																				<name>
+																					<id>Part</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_111"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<value>
+																				<Path>base:///VxMechanismType/Mechanism/VxAssembly/Assembly/VxPart/WHEEL_5_DOF</Path>
+																			</value>
+																			<forceObservers>0</forceObservers>
+																			<Has_Range>0</Has_Range>
+																		</item>
+																	</Children>
+																</item>
+																<item class_id_reference="38" object_id="_117">
+																	<FieldBase object_id="_118">
+																		<name>
+																			<id>4</id>
+																		</name>
+																		<container class_id_reference="57" object_id_reference="_90"></container>
+																		<deletable>1</deletable>
+																		<dimension>0</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<Children>
+																		<size>2</size>
+																		<item class_id_reference="52" object_id="_119">
+																			<FieldBase object_id="_120">
+																				<name>
+																					<id>Node</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_117"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<GraphicAsset>
+																				<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+																			</GraphicAsset>
+																			<Node>WHEEL_7_DOF</Node>
+																			<forceObservers>0</forceObservers>
+																		</item>
+																		<item class_id_reference="58" object_id="_121">
+																			<FieldBase object_id="_122">
+																				<name>
+																					<id>Part</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_117"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<value>
+																				<Path>base:///VxMechanismType/Mechanism/VxAssembly/Assembly/VxPart/WHEEL_7_DOF</Path>
+																			</value>
+																			<forceObservers>0</forceObservers>
+																			<Has_Range>0</Has_Range>
+																		</item>
+																	</Children>
+																</item>
+																<item class_id_reference="38" object_id="_123">
+																	<FieldBase object_id="_124">
+																		<name>
+																			<id>5</id>
+																		</name>
+																		<container class_id_reference="57" object_id_reference="_90"></container>
+																		<deletable>1</deletable>
+																		<dimension>0</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<Children>
+																		<size>2</size>
+																		<item class_id_reference="52" object_id="_125">
+																			<FieldBase object_id="_126">
+																				<name>
+																					<id>Node</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_123"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<GraphicAsset>
+																				<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+																			</GraphicAsset>
+																			<Node>WHEEL8_DOF</Node>
+																			<forceObservers>0</forceObservers>
+																		</item>
+																		<item class_id_reference="58" object_id="_127">
+																			<FieldBase object_id="_128">
+																				<name>
+																					<id>Part</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_123"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<value>
+																				<Path>base:///VxMechanismType/Mechanism/VxAssembly/Assembly/VxPart/WHEEL_8_DOF</Path>
+																			</value>
+																			<forceObservers>0</forceObservers>
+																			<Has_Range>0</Has_Range>
+																		</item>
+																	</Children>
+																</item>
+																<item class_id_reference="38" object_id="_129">
+																	<FieldBase object_id="_130">
+																		<name>
+																			<id>6</id>
+																		</name>
+																		<container class_id_reference="57" object_id_reference="_90"></container>
+																		<deletable>1</deletable>
+																		<dimension>0</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<Children>
+																		<size>2</size>
+																		<item class_id_reference="52" object_id="_131">
+																			<FieldBase object_id="_132">
+																				<name>
+																					<id>Node</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_129"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<GraphicAsset>
+																				<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+																			</GraphicAsset>
+																			<Node>WHEEL_4_DOF</Node>
+																			<forceObservers>0</forceObservers>
+																		</item>
+																		<item class_id_reference="58" object_id="_133">
+																			<FieldBase object_id="_134">
+																				<name>
+																					<id>Part</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_129"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<value>
+																				<Path>base:///VxMechanismType/Mechanism/VxAssembly/Assembly/VxPart/WHEEL_4_DOF</Path>
+																			</value>
+																			<forceObservers>0</forceObservers>
+																			<Has_Range>0</Has_Range>
+																		</item>
+																	</Children>
+																</item>
+																<item class_id_reference="38" object_id="_135">
+																	<FieldBase object_id="_136">
+																		<name>
+																			<id>7</id>
+																		</name>
+																		<container class_id_reference="57" object_id_reference="_90"></container>
+																		<deletable>1</deletable>
+																		<dimension>0</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<Children>
+																		<size>2</size>
+																		<item class_id_reference="52" object_id="_137">
+																			<FieldBase object_id="_138">
+																				<name>
+																					<id>Node</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_135"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<GraphicAsset>
+																				<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+																			</GraphicAsset>
+																			<Node>LAV_VP</Node>
+																			<forceObservers>0</forceObservers>
+																		</item>
+																		<item class_id_reference="58" object_id="_139">
+																			<FieldBase object_id="_140">
+																				<name>
+																					<id>Part</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_135"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<value>
+																				<Path>base:///VxMechanismType/Mechanism/VxAssembly/Assembly/VxPart/LAV_VP</Path>
+																			</value>
+																			<forceObservers>0</forceObservers>
+																			<Has_Range>0</Has_Range>
+																		</item>
+																	</Children>
+																</item>
+																<item class_id_reference="38" object_id="_141">
+																	<FieldBase object_id="_142">
+																		<name>
+																			<id>8</id>
+																		</name>
+																		<container class_id_reference="57" object_id_reference="_90"></container>
+																		<deletable>1</deletable>
+																		<dimension>0</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<Children>
+																		<size>2</size>
+																		<item class_id_reference="52" object_id="_143">
+																			<FieldBase object_id="_144">
+																				<name>
+																					<id>Node</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_141"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<GraphicAsset>
+																				<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+																			</GraphicAsset>
+																			<Node>WHEEL_2_DOF</Node>
+																			<forceObservers>0</forceObservers>
+																		</item>
+																		<item class_id_reference="58" object_id="_145">
+																			<FieldBase object_id="_146">
+																				<name>
+																					<id>Part</id>
+																				</name>
+																				<container class_id_reference="38" object_id_reference="_141"></container>
+																				<deletable>1</deletable>
+																				<dimension>0</dimension>
+																				<visible>1</visible>
+																				<description></description>
+																			</FieldBase>
+																			<value>
+																				<Path>base:///VxMechanismType/Mechanism/VxAssembly/Assembly/VxPart/WHEEL_2_DOF</Path>
+																			</value>
+																			<forceObservers>0</forceObservers>
+																			<Has_Range>0</Has_Range>
+																		</item>
+																	</Children>
+																</item>
+															</Children>
+														</Container>
+														<Array class_id="59" tracking_level="0" version="0">
+															<size>9</size>
+															<item class_id_reference="38" object_id_reference="_93"></item>
+															<item class_id_reference="38" object_id_reference="_99"></item>
+															<item class_id_reference="38" object_id_reference="_105"></item>
+															<item class_id_reference="38" object_id_reference="_111"></item>
+															<item class_id_reference="38" object_id_reference="_117"></item>
+															<item class_id_reference="38" object_id_reference="_123"></item>
+															<item class_id_reference="38" object_id_reference="_129"></item>
+															<item class_id_reference="38" object_id_reference="_135"></item>
+															<item class_id_reference="38" object_id_reference="_141"></item>
+														</Array>
+													</item>
+												</Children>
+											</item>
+										</Children>
+									</px>
+								</InternalData>
+								<Connections class_id="60" tracking_level="0" version="0">
+									<size>0</size>
+								</Connections>
+							</VxExtension>
+							<Category>Graphics</Category>
+							<Type>File</Type>
+							<VXP></VXP>
+							<UUID class_id="61" tracking_level="0" version="0">
+								<Id>69d070d4-68ce-5b0e-9caa-ebdb38650f9a</Id>
+							</UUID>
+							<PluginDataSize>0</PluginDataSize>
+							<LoadedExtensionVersion>0</LoadedExtensionVersion>
+							<InterfacesVersions class_id="62" tracking_level="0" version="0">
+								<count>0</count>
+								<item_version>0</item_version>
+							</InterfacesVersions>
+						</item>
+					</values>
+				</GraphicAssets>
+				<Skins class_id="63" tracking_level="0" version="0">
+					<ids>
+						<size>1</size>
+						<item>d72c00c1-102d-4de2-a017-65eb06498446</item>
+					</ids>
+					<values class_id="64" tracking_level="0" version="0">
+						<size>1</size>
+						<item class_id="65" tracking_level="1" version="620140121" object_id="_147">
+							<Object object_id="_148">
+								<VxDesign__IObject>
+									<Vx__VxBaseUserData>
+										<VxBase object_id="_149">
+											<Name>Skin</Name>
+										</VxBase>
+										<UserData>
+											<Size>5</Size>
+											<Item>
+												<Name>CenterOfMass</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>CollisionGeometry</Name>
+												<Type>1</Type>
+												<Value>1</Value>
+											</Item>
+											<Item>
+												<Name>Constraint</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>InertiaTensor</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+											<Item>
+												<Name>Origin</Name>
+												<Type>1</Type>
+												<Value>0</Value>
+											</Item>
+										</UserData>
+									</Vx__VxBaseUserData>
+								</VxDesign__IObject>
+								<ID>d72c00c1-102d-4de2-a017-65eb06498446</ID>
+								<Children>
+									<size>1</size>
+									<item class_id_reference="19" object_id="_150">
+										<VxDesign__Object object_id="_151">
+											<VxDesign__IObject>
+												<Vx__VxBaseUserData>
+													<VxBase object_id="_152">
+														<Name>ed_hierarchy</Name>
+													</VxBase>
+													<UserData>
+														<Size>5</Size>
+														<Item>
+															<Name>CenterOfMass</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>CollisionGeometry</Name>
+															<Type>1</Type>
+															<Value>1</Value>
+														</Item>
+														<Item>
+															<Name>Constraint</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>InertiaTensor</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>Origin</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+													</UserData>
+												</Vx__VxBaseUserData>
+											</VxDesign__IObject>
+											<ID>0e1bc980-af88-4c2d-9faa-daffa874bfd8</ID>
+											<Children>
+												<size>0</size>
+											</Children>
+											<Attribute>0</Attribute>
+											<TreePath></TreePath>
+										</VxDesign__Object>
+										<Items>
+											<size>9</size>
+											<item>
+												<Target>
+													<Path>base:///../d3057923-e002-42c1-b9d0-bcb864f99c02</Path>
+												</Target>
+											</item>
+											<item>
+												<Target>
+													<Path>base:///../06e60ccb-cfa7-4954-8997-8461b4b892bf</Path>
+												</Target>
+											</item>
+											<item>
+												<Target>
+													<Path>base:///../ed79d3b3-6830-4551-bfca-a08ecb95378a</Path>
+												</Target>
+											</item>
+											<item>
+												<Target>
+													<Path>base:///../49806042-1cee-4fa8-bdc8-ad64aaad82ae</Path>
+												</Target>
+											</item>
+											<item>
+												<Target>
+													<Path>base:///../a7dba2a3-0660-4e61-80f2-901b9a257cd4</Path>
+												</Target>
+											</item>
+											<item>
+												<Target>
+													<Path>base:///../6f83dce4-d550-4621-920a-cae1374f1091</Path>
+												</Target>
+											</item>
+											<item>
+												<Target>
+													<Path>base:///../4a8c8588-fdd1-46ff-9b33-8dc36f736232</Path>
+												</Target>
+											</item>
+											<item>
+												<Target>
+													<Path>base:///../9b5a2654-778c-4c56-ae0a-c48dae8db460</Path>
+												</Target>
+											</item>
+											<item>
+												<Target>
+													<Path>base:///../9e6e4e4a-53c8-4c52-a01d-313159d51890</Path>
+												</Target>
+											</item>
+										</Items>
+									</item>
+								</Children>
+								<Attribute>2</Attribute>
+								<TreePath>Skins</TreePath>
+							</Object>
+							<isActive>1</isActive>
+							<SkinNodes class_id="66" tracking_level="0" version="0">
+								<ids>
+									<size>9</size>
+									<item>06e60ccb-cfa7-4954-8997-8461b4b892bf</item>
+									<item>49806042-1cee-4fa8-bdc8-ad64aaad82ae</item>
+									<item>4a8c8588-fdd1-46ff-9b33-8dc36f736232</item>
+									<item>6f83dce4-d550-4621-920a-cae1374f1091</item>
+									<item>9b5a2654-778c-4c56-ae0a-c48dae8db460</item>
+									<item>9e6e4e4a-53c8-4c52-a01d-313159d51890</item>
+									<item>a7dba2a3-0660-4e61-80f2-901b9a257cd4</item>
+									<item>d3057923-e002-42c1-b9d0-bcb864f99c02</item>
+									<item>ed79d3b3-6830-4551-bfca-a08ecb95378a</item>
+								</ids>
+								<values class_id="67" tracking_level="0" version="0">
+									<size>9</size>
+									<item class_id="68" tracking_level="1" version="620140121" object_id="_153">
+										<Object object_id="_154">
+											<VxDesign__IObject>
+												<Vx__VxBaseUserData>
+													<VxBase object_id="_155">
+														<Name>WHEEL_1_DOF</Name>
+													</VxBase>
+													<UserData>
+														<Size>5</Size>
+														<Item>
+															<Name>CenterOfMass</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>CollisionGeometry</Name>
+															<Type>1</Type>
+															<Value>1</Value>
+														</Item>
+														<Item>
+															<Name>Constraint</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>InertiaTensor</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>Origin</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+													</UserData>
+												</Vx__VxBaseUserData>
+											</VxDesign__IObject>
+											<ID>06e60ccb-cfa7-4954-8997-8461b4b892bf</ID>
+											<Children>
+												<size>0</size>
+											</Children>
+											<Attribute>0</Attribute>
+											<TreePath>.</TreePath>
+										</Object>
+										<referencePath>
+											<Path>base:///../../4a616690-22e1-49ff-b599-5707dc165ac8/04801036-44c3-41e9-b6d7-0b292e6dcf56</Path>
+										</referencePath>
+										<Node class_id="69" tracking_level="0" version="520100809">
+											<GraphicAsset>
+												<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+											</GraphicAsset>
+											<Node>WHEEL_1_DOF</Node>
+										</Node>
+									</item>
+									<item class_id_reference="68" object_id="_156">
+										<Object object_id="_157">
+											<VxDesign__IObject>
+												<Vx__VxBaseUserData>
+													<VxBase object_id="_158">
+														<Name>WHEEL_3_DOF</Name>
+													</VxBase>
+													<UserData>
+														<Size>5</Size>
+														<Item>
+															<Name>CenterOfMass</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>CollisionGeometry</Name>
+															<Type>1</Type>
+															<Value>1</Value>
+														</Item>
+														<Item>
+															<Name>Constraint</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>InertiaTensor</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>Origin</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+													</UserData>
+												</Vx__VxBaseUserData>
+											</VxDesign__IObject>
+											<ID>49806042-1cee-4fa8-bdc8-ad64aaad82ae</ID>
+											<Children>
+												<size>0</size>
+											</Children>
+											<Attribute>0</Attribute>
+											<TreePath>.</TreePath>
+										</Object>
+										<referencePath>
+											<Path>base:///../../4a616690-22e1-49ff-b599-5707dc165ac8/f65f37d6-bea5-47db-9009-e7abdc6f156f</Path>
+										</referencePath>
+										<Node>
+											<GraphicAsset>
+												<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+											</GraphicAsset>
+											<Node>WHEEL_3_DOF</Node>
+										</Node>
+									</item>
+									<item class_id_reference="68" object_id="_159">
+										<Object object_id="_160">
+											<VxDesign__IObject>
+												<Vx__VxBaseUserData>
+													<VxBase object_id="_161">
+														<Name>WHEEL_6_DOF</Name>
+													</VxBase>
+													<UserData>
+														<Size>5</Size>
+														<Item>
+															<Name>CenterOfMass</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>CollisionGeometry</Name>
+															<Type>1</Type>
+															<Value>1</Value>
+														</Item>
+														<Item>
+															<Name>Constraint</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>InertiaTensor</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>Origin</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+													</UserData>
+												</Vx__VxBaseUserData>
+											</VxDesign__IObject>
+											<ID>4a8c8588-fdd1-46ff-9b33-8dc36f736232</ID>
+											<Children>
+												<size>0</size>
+											</Children>
+											<Attribute>0</Attribute>
+											<TreePath>.</TreePath>
+										</Object>
+										<referencePath>
+											<Path>base:///../../4a616690-22e1-49ff-b599-5707dc165ac8/ead6b5a4-14ce-4598-ab04-6c0cafd5f277</Path>
+										</referencePath>
+										<Node>
+											<GraphicAsset>
+												<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+											</GraphicAsset>
+											<Node>WHEEL_6_DOF</Node>
+										</Node>
+									</item>
+									<item class_id_reference="68" object_id="_162">
+										<Object object_id="_163">
+											<VxDesign__IObject>
+												<Vx__VxBaseUserData>
+													<VxBase object_id="_164">
+														<Name>WHEEL_5_DOF</Name>
+													</VxBase>
+													<UserData>
+														<Size>5</Size>
+														<Item>
+															<Name>CenterOfMass</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>CollisionGeometry</Name>
+															<Type>1</Type>
+															<Value>1</Value>
+														</Item>
+														<Item>
+															<Name>Constraint</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>InertiaTensor</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>Origin</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+													</UserData>
+												</Vx__VxBaseUserData>
+											</VxDesign__IObject>
+											<ID>6f83dce4-d550-4621-920a-cae1374f1091</ID>
+											<Children>
+												<size>0</size>
+											</Children>
+											<Attribute>0</Attribute>
+											<TreePath>.</TreePath>
+										</Object>
+										<referencePath>
+											<Path>base:///../../4a616690-22e1-49ff-b599-5707dc165ac8/2e824df9-6ba9-4dec-830e-4bc124efa7e6</Path>
+										</referencePath>
+										<Node>
+											<GraphicAsset>
+												<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+											</GraphicAsset>
+											<Node>WHEEL_5_DOF</Node>
+										</Node>
+									</item>
+									<item class_id_reference="68" object_id="_165">
+										<Object object_id="_166">
+											<VxDesign__IObject>
+												<Vx__VxBaseUserData>
+													<VxBase object_id="_167">
+														<Name>WHEEL_7_DOF</Name>
+													</VxBase>
+													<UserData>
+														<Size>5</Size>
+														<Item>
+															<Name>CenterOfMass</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>CollisionGeometry</Name>
+															<Type>1</Type>
+															<Value>1</Value>
+														</Item>
+														<Item>
+															<Name>Constraint</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>InertiaTensor</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>Origin</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+													</UserData>
+												</Vx__VxBaseUserData>
+											</VxDesign__IObject>
+											<ID>9b5a2654-778c-4c56-ae0a-c48dae8db460</ID>
+											<Children>
+												<size>0</size>
+											</Children>
+											<Attribute>0</Attribute>
+											<TreePath>.</TreePath>
+										</Object>
+										<referencePath>
+											<Path>base:///../../4a616690-22e1-49ff-b599-5707dc165ac8/a9666130-4954-4932-9122-fcb76913ce91</Path>
+										</referencePath>
+										<Node>
+											<GraphicAsset>
+												<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+											</GraphicAsset>
+											<Node>WHEEL_7_DOF</Node>
+										</Node>
+									</item>
+									<item class_id_reference="68" object_id="_168">
+										<Object object_id="_169">
+											<VxDesign__IObject>
+												<Vx__VxBaseUserData>
+													<VxBase object_id="_170">
+														<Name>WHEEL8_DOF</Name>
+													</VxBase>
+													<UserData>
+														<Size>5</Size>
+														<Item>
+															<Name>CenterOfMass</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>CollisionGeometry</Name>
+															<Type>1</Type>
+															<Value>1</Value>
+														</Item>
+														<Item>
+															<Name>Constraint</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>InertiaTensor</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>Origin</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+													</UserData>
+												</Vx__VxBaseUserData>
+											</VxDesign__IObject>
+											<ID>9e6e4e4a-53c8-4c52-a01d-313159d51890</ID>
+											<Children>
+												<size>0</size>
+											</Children>
+											<Attribute>0</Attribute>
+											<TreePath>.</TreePath>
+										</Object>
+										<referencePath>
+											<Path>base:///../../4a616690-22e1-49ff-b599-5707dc165ac8/ed84a0da-7e9e-4a27-84db-a7f752612262</Path>
+										</referencePath>
+										<Node>
+											<GraphicAsset>
+												<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+											</GraphicAsset>
+											<Node>WHEEL8_DOF</Node>
+										</Node>
+									</item>
+									<item class_id_reference="68" object_id="_171">
+										<Object object_id="_172">
+											<VxDesign__IObject>
+												<Vx__VxBaseUserData>
+													<VxBase object_id="_173">
+														<Name>WHEEL_4_DOF</Name>
+													</VxBase>
+													<UserData>
+														<Size>5</Size>
+														<Item>
+															<Name>CenterOfMass</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>CollisionGeometry</Name>
+															<Type>1</Type>
+															<Value>1</Value>
+														</Item>
+														<Item>
+															<Name>Constraint</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>InertiaTensor</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>Origin</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+													</UserData>
+												</Vx__VxBaseUserData>
+											</VxDesign__IObject>
+											<ID>a7dba2a3-0660-4e61-80f2-901b9a257cd4</ID>
+											<Children>
+												<size>0</size>
+											</Children>
+											<Attribute>0</Attribute>
+											<TreePath>.</TreePath>
+										</Object>
+										<referencePath>
+											<Path>base:///../../4a616690-22e1-49ff-b599-5707dc165ac8/e26fbb7b-0292-4431-951a-8b89cfba08ee</Path>
+										</referencePath>
+										<Node>
+											<GraphicAsset>
+												<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+											</GraphicAsset>
+											<Node>WHEEL_4_DOF</Node>
+										</Node>
+									</item>
+									<item class_id_reference="68" object_id="_174">
+										<Object object_id="_175">
+											<VxDesign__IObject>
+												<Vx__VxBaseUserData>
+													<VxBase object_id="_176">
+														<Name>LAV_VP</Name>
+													</VxBase>
+													<UserData>
+														<Size>5</Size>
+														<Item>
+															<Name>CenterOfMass</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>CollisionGeometry</Name>
+															<Type>1</Type>
+															<Value>1</Value>
+														</Item>
+														<Item>
+															<Name>Constraint</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>InertiaTensor</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>Origin</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+													</UserData>
+												</Vx__VxBaseUserData>
+											</VxDesign__IObject>
+											<ID>d3057923-e002-42c1-b9d0-bcb864f99c02</ID>
+											<Children>
+												<size>0</size>
+											</Children>
+											<Attribute>0</Attribute>
+											<TreePath>.</TreePath>
+										</Object>
+										<referencePath>
+											<Path>base:///../../4a616690-22e1-49ff-b599-5707dc165ac8/113e9ec0-5162-48b0-a64b-a2c22b69198c</Path>
+										</referencePath>
+										<Node>
+											<GraphicAsset>
+												<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+											</GraphicAsset>
+											<Node>LAV_VP</Node>
+										</Node>
+									</item>
+									<item class_id_reference="68" object_id="_177">
+										<Object object_id="_178">
+											<VxDesign__IObject>
+												<Vx__VxBaseUserData>
+													<VxBase object_id="_179">
+														<Name>WHEEL_2_DOF</Name>
+													</VxBase>
+													<UserData>
+														<Size>5</Size>
+														<Item>
+															<Name>CenterOfMass</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>CollisionGeometry</Name>
+															<Type>1</Type>
+															<Value>1</Value>
+														</Item>
+														<Item>
+															<Name>Constraint</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>InertiaTensor</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+														<Item>
+															<Name>Origin</Name>
+															<Type>1</Type>
+															<Value>0</Value>
+														</Item>
+													</UserData>
+												</Vx__VxBaseUserData>
+											</VxDesign__IObject>
+											<ID>ed79d3b3-6830-4551-bfca-a08ecb95378a</ID>
+											<Children>
+												<size>0</size>
+											</Children>
+											<Attribute>0</Attribute>
+											<TreePath>.</TreePath>
+										</Object>
+										<referencePath>
+											<Path>base:///../../4a616690-22e1-49ff-b599-5707dc165ac8/e8e3b034-b7c3-467a-ad7d-6801da84d6e6</Path>
+										</referencePath>
+										<Node>
+											<GraphicAsset>
+												<Path>base:///VxMechanismType/Mechanism/VxPluginExtension/LAV_VP</Path>
+											</GraphicAsset>
+											<Node>WHEEL_2_DOF</Node>
+										</Node>
+									</item>
+								</values>
+							</SkinNodes>
+						</item>
+					</values>
+				</Skins>
+				<ActiveSkinID>d72c00c1-102d-4de2-a017-65eb06498446</ActiveSkinID>
+				<MechanismExtensions class_id="70" tracking_level="0" version="0">
+					<ids>
+						<size>0</size>
+					</ids>
+					<values class_id="71" tracking_level="0" version="0">
+						<size>0</size>
+					</values>
+				</MechanismExtensions>
+				<VHLInstances class_id="72" tracking_level="0" version="0">
+					<ids>
+						<size>0</size>
+					</ids>
+					<values class_id="73" tracking_level="0" version="0">
+						<size>0</size>
+					</values>
+				</VHLInstances>
+				<PythonScripts class_id="74" tracking_level="0" version="0">
+					<ids>
+						<size>0</size>
+					</ids>
+					<values class_id="75" tracking_level="0" version="0">
+						<size>0</size>
+					</values>
+				</PythonScripts>
+			</MechanismType>
+		</item>
+	</Sections>
+</File>
+</boost_serialization>
+
