@@ -1,0 +1,294 @@
+<!--Vx62?X10000000000001--><?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="8">
+<File class_id="0" tracking_level="1" version="520101122" object_id="_0">
+	<Description></Description>
+	<VortexInformation>CMLabs Simulations Inc. Vortex SDK 6.2.0.0 Tue May 19 16:45:25 2015
+</VortexInformation>
+	<Vx__VxBase class_id="1" tracking_level="1" version="520100709" object_id="_1">
+		<Name>VxFile</Name>
+	</Vx__VxBase>
+	<References class_id="2" tracking_level="0" version="0">
+		<size>0</size>
+	</References>
+	<Sections class_id="3" tracking_level="0" version="0">
+		<size>1</size>
+		<item class_id="4" class_name="VxPersistence::VxPartTypeSection" tracking_level="1" version="620120814" object_id="_2">
+			<VxFileSection class_id="5" tracking_level="0" version="0">
+				<Vx__VxBase object_id="_3">
+					<Name>default_VxPartTypeSection_185280</Name>
+				</Vx__VxBase>
+			</VxFileSection>
+			<partType class_id="6" tracking_level="1" version="620140320" object_id="_4">
+				<Object class_id="7" tracking_level="1" version="620140217" object_id="_5">
+					<VxDesign__IObject class_id="8" tracking_level="0" version="620130402">
+						<Vx__VxBaseUserData class_id="9" tracking_level="0" version="620130426">
+							<VxBase object_id="_6">
+								<Name>tertest3</Name>
+							</VxBase>
+							<UserData class_id="10" tracking_level="0" version="620130426">
+								<Size>1</Size>
+								<Item class_id="11" tracking_level="0" version="620130426">
+									<Name>Node</Name>
+									<Type>8</Type>
+								</Item>
+							</UserData>
+						</Vx__VxBaseUserData>
+					</VxDesign__IObject>
+					<ID>be158bf6-c368-4d77-b45b-226b064eead1</ID>
+					<Children class_id="12" tracking_level="0" version="0">
+						<size>2</size>
+						<item class_id="13" class_name="VxDesign::EdHierarchy" tracking_level="1" version="620140217" object_id="_7">
+							<VxDesign__Object object_id="_8">
+								<VxDesign__IObject>
+									<Vx__VxBaseUserData>
+										<VxBase object_id="_9">
+											<Name>ed_hierarchy</Name>
+										</VxBase>
+										<UserData>
+											<Size>0</Size>
+										</UserData>
+									</Vx__VxBaseUserData>
+								</VxDesign__IObject>
+								<ID>7176e89c-8ce6-49a9-b635-dd32b9772543</ID>
+								<Children>
+									<size>0</size>
+								</Children>
+								<Attribute>0</Attribute>
+								<TreePath></TreePath>
+							</VxDesign__Object>
+							<Items class_id="14" tracking_level="0" version="0">
+								<size>2</size>
+								<item class_id="15" tracking_level="0" version="0">
+									<Target class_id="16" tracking_level="0" version="0">
+										<Path>base:///../d13cb49a-26f6-4eef-8103-4928d5ac3456</Path>
+									</Target>
+								</item>
+								<item>
+									<Target>
+										<Path>base:///../3f44892b-7f7f-43b0-b180-375aa4f90f2f</Path>
+									</Target>
+								</item>
+							</Items>
+						</item>
+						<item class_id="17" class_name="VxDesign::EdFolder" tracking_level="1" version="620140217" object_id="_10">
+							<VxDesign__Object object_id="_11">
+								<VxDesign__IObject>
+									<Vx__VxBaseUserData>
+										<VxBase object_id="_12">
+											<Name>Geometries</Name>
+										</VxBase>
+										<UserData>
+											<Size>0</Size>
+										</UserData>
+									</Vx__VxBaseUserData>
+								</VxDesign__IObject>
+								<ID>3f44892b-7f7f-43b0-b180-375aa4f90f2f</ID>
+								<Children>
+									<size>1</size>
+									<item class_id_reference="13" object_id="_13">
+										<VxDesign__Object object_id="_14">
+											<VxDesign__IObject>
+												<Vx__VxBaseUserData>
+													<VxBase object_id="_15">
+														<Name>ed_hierarchy</Name>
+													</VxBase>
+													<UserData>
+														<Size>0</Size>
+													</UserData>
+												</Vx__VxBaseUserData>
+											</VxDesign__IObject>
+											<ID>157d0af6-8747-464b-92da-91ce012d1090</ID>
+											<Children>
+												<size>0</size>
+											</Children>
+											<Attribute>0</Attribute>
+											<TreePath></TreePath>
+										</VxDesign__Object>
+										<Items>
+											<size>1</size>
+											<item>
+												<Target>
+													<Path>base:///../../00cdf7c9-e5fb-4820-a676-c6fc84443b0c</Path>
+												</Target>
+											</item>
+										</Items>
+									</item>
+								</Children>
+								<Attribute>2</Attribute>
+								<TreePath></TreePath>
+							</VxDesign__Object>
+						</item>
+					</Children>
+					<Attribute>2</Attribute>
+					<TreePath></TreePath>
+				</Object>
+				<CollisionGeometryInstances class_id="18" tracking_level="0" version="0">
+					<ids class_id="19" tracking_level="0" version="0">
+						<size>1</size>
+						<item>00cdf7c9-e5fb-4820-a676-c6fc84443b0c</item>
+					</ids>
+					<values class_id="20" tracking_level="0" version="0">
+						<size>1</size>
+						<item class_id="21" tracking_level="1" version="620140415" object_id="_16">
+							<CollisionGeometryLegacy class_id="22" tracking_level="1" version="620140606" object_id="_17">
+								<Geometry class_id="23" class_name="Vx::VxBox" tracking_level="1" version="1" object_id="_18">
+									<Dimensions class_id="24" tracking_level="0" version="2">
+										<x>1780.9637197036059</x>
+										<y>500.04863825931909</y>
+										<z>0.0099999997764825821</z>
+									</Dimensions>
+									<Vx__VxGeometry class_id="25" tracking_level="0" version="520100709">
+										<VxBaseUserData>
+											<VxBase object_id="_19">
+												<Name>default_VxBox_55216</Name>
+											</VxBase>
+											<UserData>
+												<Size>0</Size>
+											</UserData>
+										</VxBaseUserData>
+										<MaterialMap class_id="26" tracking_level="0" version="0">
+											<size>0</size>
+										</MaterialMap>
+									</Vx__VxGeometry>
+								</Geometry>
+								<VxBaseUserData>
+									<VxBase object_id="_20">
+										<Name>Box</Name>
+									</VxBase>
+									<UserData>
+										<Size>0</Size>
+									</UserData>
+								</VxBaseUserData>
+								<massEnabled>1</massEnabled>
+								<collisionEnabled>1</collisionEnabled>
+								<fluidInteractionEnabled>0</fluidInteractionEnabled>
+								<fluidInteractionData class_id="-1"></fluidInteractionData>
+								<material class_id="-1"></material>
+								<responseID>0</responseID>
+								<requestID>0</requestID>
+								<relativeDensity>1</relativeDensity>
+								<relativeTransform class_id="29" tracking_level="0" version="2">
+									<a00>0.99999998324927786</a00>
+									<a01>-2.7292668496705649e-005</a01>
+									<a02>0.00018098771860639603</a02>
+									<a03>0</a03>
+									<a10>2.7281286353213211e-005</a10>
+									<a11>0.99999999765021363</a11>
+									<a12>6.2891208472007538e-005</a12>
+									<a13>0</a13>
+									<a20>-0.00018098943465001774</a20>
+									<a21>-6.2886269840756667e-005</a21>
+									<a22>0.99999998164407067</a22>
+									<a23>0</a23>
+									<a30>190.47501612453979</a30>
+									<a31>1.4085471153523585e-005</a31>
+									<a32>0</a32>
+									<a33>1</a33>
+								</relativeTransform>
+								<tempDisabled>0</tempDisabled>
+								<collisionGeometryID class_id="30" tracking_level="0" version="0">
+									<id></id>
+								</collisionGeometryID>
+								<contactTolerance>0.001</contactTolerance>
+								<fastMoving>0</fastMoving>
+							</CollisionGeometryLegacy>
+							<Object object_id="_21">
+								<VxDesign__IObject>
+									<Vx__VxBaseUserData>
+										<VxBase object_id="_22">
+											<Name>Box</Name>
+										</VxBase>
+										<UserData>
+											<Size>4</Size>
+											<Item>
+												<Name>CollisionGeometry</Name>
+												<Type>1</Type>
+												<Value>1</Value>
+											</Item>
+											<Item>
+												<Name>HighlightColor</Name>
+												<Type>16</Type>
+											</Item>
+											<Item>
+												<Name>Node</Name>
+												<Type>8</Type>
+											</Item>
+											<Item>
+												<Name>ShapeColor</Name>
+												<Type>16</Type>
+											</Item>
+										</UserData>
+									</Vx__VxBaseUserData>
+								</VxDesign__IObject>
+								<ID>00cdf7c9-e5fb-4820-a676-c6fc84443b0c</ID>
+								<Children>
+									<size>0</size>
+								</Children>
+								<Attribute>0</Attribute>
+								<TreePath>Geometries</TreePath>
+							</Object>
+							<Position>
+								<x>190.47501612453979</x>
+								<y>1.4085471153523585e-005</y>
+								<z>0</z>
+							</Position>
+							<Orientation>
+								<x>6.2886270912194188e-005</x>
+								<y>-0.00018098943563813486</y>
+								<z>-2.7281286803426266e-005</z>
+							</Orientation>
+							<GeometryType>1</GeometryType>
+							<Material>Ground</Material>
+						</item>
+					</values>
+				</CollisionGeometryInstances>
+				<Mass>1</Mass>
+				<Inertia>
+					<count>3</count>
+					<item>
+						<count>3</count>
+						<item>0.40000000000000002</item>
+						<item>0</item>
+						<item>0</item>
+					</item>
+					<item>
+						<count>3</count>
+						<item>0</item>
+						<item>0.40000000000000002</item>
+						<item>0</item>
+					</item>
+					<item>
+						<count>3</count>
+						<item>0</item>
+						<item>0</item>
+						<item>0.40000000000000002</item>
+					</item>
+				</Inertia>
+				<CenterOfMass class_id="31" tracking_level="1" version="2" object_id="_23">
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</CenterOfMass>
+				<SolverGroup>0</SolverGroup>
+				<InertiaX object_id="_24">
+					<x>0.40000000000000002</x>
+					<y>0</y>
+					<z>0</z>
+				</InertiaX>
+				<InertiaY object_id="_25">
+					<x>0</x>
+					<y>0.40000000000000002</y>
+					<z>0</z>
+				</InertiaY>
+				<InertiaZ object_id="_26">
+					<x>0</x>
+					<y>0</y>
+					<z>0.40000000000000002</z>
+				</InertiaZ>
+			</partType>
+		</item>
+	</Sections>
+</File>
+</boost_serialization>
+

@@ -1,0 +1,737 @@
+<!--Vx62mX10000000000001--><?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="8">
+<File class_id="0" tracking_level="1" version="520101122" object_id="_0">
+	<Description></Description>
+	<VortexInformation>CMLabs Simulations Inc. Vortex SDK 6.2.0.0 Tue May 19 17:32:36 2015
+</VortexInformation>
+	<Vx__VxBase class_id="1" tracking_level="1" version="520100709" object_id="_1">
+		<Name>VxFile</Name>
+	</Vx__VxBase>
+	<References class_id="2" tracking_level="0" version="0">
+		<size>0</size>
+	</References>
+	<Sections class_id="3" tracking_level="0" version="0">
+		<size>2</size>
+		<item class_id="4" class_name="VxSim::VxMechanismSection" tracking_level="1" version="620131205" object_id="_2">
+			<VxFileSection class_id="5" tracking_level="0" version="0">
+				<Vx__VxBase object_id="_3">
+					<Name>default_VxMechanismSection_197338</Name>
+				</Vx__VxBase>
+			</VxFileSection>
+			<Mechanism class_id="6" tracking_level="1" version="620131206" object_id="_4">
+				<VxExtendable class_id="7" tracking_level="1" version="620130924" object_id="_5">
+					<VxBase object_id="_6">
+						<Name>Mechanism 1</Name>
+					</VxBase>
+					<Extensions class_id="8" tracking_level="0" version="0">
+						<size>1</size>
+						<item class_id="9" tracking_level="0" version="0">
+							<ID>0</ID>
+							<Extension class_id="10" class_name="VxSim::VxPluginExtension" tracking_level="1" version="620140129" object_id="_7">
+								<VxExtension class_id="11" tracking_level="0" version="620140314">
+									<VxBase object_id="_8">
+										<Name>tertest3</Name>
+									</VxBase>
+									<OwnedFields class_id="12" tracking_level="0" version="0">
+										<size>0</size>
+									</OwnedFields>
+									<InternalData class_id="13" tracking_level="0" version="1">
+										<px class_id="14" tracking_level="1" version="0" object_id="_9">
+											<FieldBase class_id="15" tracking_level="1" version="620130911" object_id="_10">
+												<name class_id="16" tracking_level="0" version="0">
+													<id>ControllerFields</id>
+												</name>
+												<container class_id="-1"></container>
+												<deletable>1</deletable>
+												<dimension>0</dimension>
+												<visible>1</visible>
+												<description></description>
+											</FieldBase>
+											<Children class_id="17" tracking_level="0" version="0">
+												<size>3</size>
+												<item class_id_reference="14" object_id="_11">
+													<FieldBase object_id="_12">
+														<name>
+															<id>Inputs</id>
+														</name>
+														<container class_id_reference="14" object_id_reference="_9"></container>
+														<deletable>1</deletable>
+														<dimension>0</dimension>
+														<visible>1</visible>
+														<description></description>
+													</FieldBase>
+													<Children>
+														<size>6</size>
+														<item class_id="18" class_name="VxInput_bool_" tracking_level="1" version="0" object_id="_13">
+															<InputOutputTemplate class_id="19" tracking_level="1" version="620131127" object_id="_14">
+																<Field_Template class_id="20" tracking_level="1" version="620131127" object_id="_15">
+																	<FieldBase object_id="_16">
+																		<name>
+																			<id>CastShadow</id>
+																		</name>
+																		<container class_id_reference="14" object_id_reference="_11"></container>
+																		<deletable>1</deletable>
+																		<dimension>0</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<value>0</value>
+																	<forceObservers>0</forceObservers>
+																	<Has_Range>0</Has_Range>
+																</Field_Template>
+															</InputOutputTemplate>
+														</item>
+														<item class_id_reference="18" object_id="_17">
+															<InputOutputTemplate object_id="_18">
+																<Field_Template object_id="_19">
+																	<FieldBase object_id="_20">
+																		<name>
+																			<id>ReceiveShadow</id>
+																		</name>
+																		<container class_id_reference="14" object_id_reference="_11"></container>
+																		<deletable>1</deletable>
+																		<dimension>0</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<value>1</value>
+																	<forceObservers>0</forceObservers>
+																	<Has_Range>0</Has_Range>
+																</Field_Template>
+															</InputOutputTemplate>
+														</item>
+														<item class_id_reference="18" object_id="_21">
+															<InputOutputTemplate object_id="_22">
+																<Field_Template object_id="_23">
+																	<FieldBase object_id="_24">
+																		<name>
+																			<id>Visible</id>
+																		</name>
+																		<container class_id_reference="14" object_id_reference="_11"></container>
+																		<deletable>1</deletable>
+																		<dimension>0</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<value>1</value>
+																	<forceObservers>0</forceObservers>
+																	<Has_Range>0</Has_Range>
+																</Field_Template>
+															</InputOutputTemplate>
+														</item>
+														<item class_id="21" class_name="VxInput_Vx::VxVector3_" tracking_level="1" version="0" object_id="_25">
+															<InputOutputTemplate class_id="22" tracking_level="1" version="620131127" object_id="_26">
+																<Field_Template class_id="23" tracking_level="1" version="620131127" object_id="_27">
+																	<FieldBase object_id="_28">
+																		<name>
+																			<id>Position</id>
+																		</name>
+																		<container class_id_reference="14" object_id_reference="_11"></container>
+																		<deletable>1</deletable>
+																		<dimension>1</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<value class_id="24" tracking_level="1" version="2" object_id="_29">
+																		<x>0</x>
+																		<y>0</y>
+																		<z>0</z>
+																	</value>
+																	<forceObservers>0</forceObservers>
+																	<Has_Range>0</Has_Range>
+																</Field_Template>
+															</InputOutputTemplate>
+														</item>
+														<item class_id_reference="21" object_id="_30">
+															<InputOutputTemplate object_id="_31">
+																<Field_Template object_id="_32">
+																	<FieldBase object_id="_33">
+																		<name>
+																			<id>Orientation</id>
+																		</name>
+																		<container class_id_reference="14" object_id_reference="_11"></container>
+																		<deletable>1</deletable>
+																		<dimension>5</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<value object_id="_34">
+																		<x>0</x>
+																		<y>0</y>
+																		<z>0</z>
+																	</value>
+																	<forceObservers>0</forceObservers>
+																	<Has_Range>0</Has_Range>
+																</Field_Template>
+															</InputOutputTemplate>
+														</item>
+														<item class_id_reference="21" object_id="_35">
+															<InputOutputTemplate object_id="_36">
+																<Field_Template object_id="_37">
+																	<FieldBase object_id="_38">
+																		<name>
+																			<id>Scale</id>
+																		</name>
+																		<container class_id_reference="14" object_id_reference="_11"></container>
+																		<deletable>1</deletable>
+																		<dimension>0</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<value object_id="_39">
+																		<x>1</x>
+																		<y>1</y>
+																		<z>1</z>
+																	</value>
+																	<forceObservers>0</forceObservers>
+																	<Has_Range>0</Has_Range>
+																</Field_Template>
+															</InputOutputTemplate>
+														</item>
+													</Children>
+												</item>
+												<item class_id_reference="14" object_id="_40">
+													<FieldBase object_id="_41">
+														<name>
+															<id>Outputs</id>
+														</name>
+														<container class_id_reference="14" object_id_reference="_9"></container>
+														<deletable>1</deletable>
+														<dimension>0</dimension>
+														<visible>1</visible>
+														<description></description>
+													</FieldBase>
+													<Children>
+														<size>2</size>
+														<item class_id="25" class_name="VxOutput_Vx::VxVector3_" tracking_level="1" version="0" object_id="_42">
+															<InputOutputTemplate object_id="_43">
+																<Field_Template object_id="_44">
+																	<FieldBase object_id="_45">
+																		<name>
+																			<id>Position</id>
+																		</name>
+																		<container class_id_reference="14" object_id_reference="_40"></container>
+																		<deletable>1</deletable>
+																		<dimension>1</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<value object_id="_46">
+																		<x>0</x>
+																		<y>0</y>
+																		<z>0</z>
+																	</value>
+																	<forceObservers>0</forceObservers>
+																	<Has_Range>0</Has_Range>
+																</Field_Template>
+															</InputOutputTemplate>
+														</item>
+														<item class_id_reference="25" object_id="_47">
+															<InputOutputTemplate object_id="_48">
+																<Field_Template object_id="_49">
+																	<FieldBase object_id="_50">
+																		<name>
+																			<id>Orientation</id>
+																		</name>
+																		<container class_id_reference="14" object_id_reference="_40"></container>
+																		<deletable>1</deletable>
+																		<dimension>5</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<value object_id="_51">
+																		<x>0</x>
+																		<y>0</y>
+																		<z>0</z>
+																	</value>
+																	<forceObservers>0</forceObservers>
+																	<Has_Range>0</Has_Range>
+																</Field_Template>
+															</InputOutputTemplate>
+														</item>
+													</Children>
+												</item>
+												<item class_id_reference="14" object_id="_52">
+													<FieldBase object_id="_53">
+														<name>
+															<id>Parameters</id>
+														</name>
+														<container class_id_reference="14" object_id_reference="_9"></container>
+														<deletable>1</deletable>
+														<dimension>0</dimension>
+														<visible>1</visible>
+														<description></description>
+													</FieldBase>
+													<Children>
+														<size>3</size>
+														<item class_id="26" class_name="VxParameter_VxNode" tracking_level="1" version="0" object_id="_54">
+															<Field_Template class_id="27" tracking_level="1" version="620131127" object_id="_55">
+																<Field_Template class_id="28" tracking_level="1" version="520120703" object_id="_56">
+																	<FieldBase object_id="_57">
+																		<name>
+																			<id>AttachmentNode</id>
+																		</name>
+																		<container class_id_reference="14" object_id_reference="_52"></container>
+																		<deletable>1</deletable>
+																		<dimension>0</dimension>
+																		<visible>0</visible>
+																		<description></description>
+																	</FieldBase>
+																	<GraphicAsset class_id="29" tracking_level="0" version="0">
+																		<Path></Path>
+																	</GraphicAsset>
+																	<Node></Node>
+																	<forceObservers>0</forceObservers>
+																</Field_Template>
+															</Field_Template>
+														</item>
+														<item class_id="30" class_name="VxParameter_Vx::VxFilename_" tracking_level="1" version="0" object_id="_58">
+															<Field_Template class_id="31" tracking_level="1" version="620131127" object_id="_59">
+																<Field_Template class_id="32" tracking_level="1" version="620131127" object_id="_60">
+																	<FieldBase object_id="_61">
+																		<name>
+																			<id>Filename</id>
+																		</name>
+																		<container class_id_reference="14" object_id_reference="_52"></container>
+																		<deletable>1</deletable>
+																		<dimension>0</dimension>
+																		<visible>1</visible>
+																		<description></description>
+																	</FieldBase>
+																	<value class_id="33" tracking_level="0" version="520121031">
+																		<filename>Graphics/tertest3.flt</filename>
+																	</value>
+																	<forceObservers>0</forceObservers>
+																	<Has_Range>0</Has_Range>
+																</Field_Template>
+															</Field_Template>
+														</item>
+														<item class_id="34" class_name="VxData_FieldArray_Container" tracking_level="1" version="0" object_id="_62">
+															<Container object_id="_63">
+																<FieldBase object_id="_64">
+																	<name>
+																		<id>PartNode Mapping</id>
+																	</name>
+																	<container class_id_reference="14" object_id_reference="_52"></container>
+																	<deletable>1</deletable>
+																	<dimension>0</dimension>
+																	<visible>1</visible>
+																	<description></description>
+																</FieldBase>
+																<Children>
+																	<size>1</size>
+																	<item class_id_reference="14" object_id="_65">
+																		<FieldBase object_id="_66">
+																			<name>
+																				<id>0</id>
+																			</name>
+																			<container class_id_reference="34" object_id_reference="_62"></container>
+																			<deletable>1</deletable>
+																			<dimension>0</dimension>
+																			<visible>1</visible>
+																			<description></description>
+																		</FieldBase>
+																		<Children>
+																			<size>2</size>
+																			<item class_id_reference="28" object_id="_67">
+																				<FieldBase object_id="_68">
+																					<name>
+																						<id>Node</id>
+																					</name>
+																					<container class_id_reference="14" object_id_reference="_65"></container>
+																					<deletable>1</deletable>
+																					<dimension>0</dimension>
+																					<visible>1</visible>
+																					<description></description>
+																				</FieldBase>
+																				<GraphicAsset>
+																					<Path>base:///VxMechanism/Mechanism 1/VxPluginExtension/tertest3</Path>
+																				</GraphicAsset>
+																				<Node>tertest3</Node>
+																				<forceObservers>0</forceObservers>
+																			</item>
+																			<item class_id="35" class_name="VxData::Field_pVxPart_" tracking_level="1" version="620131127" object_id="_69">
+																				<FieldBase object_id="_70">
+																					<name>
+																						<id>Part</id>
+																					</name>
+																					<container class_id_reference="14" object_id_reference="_65"></container>
+																					<deletable>1</deletable>
+																					<dimension>0</dimension>
+																					<visible>1</visible>
+																					<description></description>
+																				</FieldBase>
+																				<value>
+																					<Path>base:///VxMechanism/Mechanism 1/VxAssembly/Assembly/VxPart/tertest3</Path>
+																				</value>
+																				<forceObservers>0</forceObservers>
+																				<Has_Range>0</Has_Range>
+																			</item>
+																		</Children>
+																	</item>
+																</Children>
+															</Container>
+															<Array class_id="36" tracking_level="0" version="0">
+																<size>1</size>
+																<item class_id_reference="14" object_id_reference="_65"></item>
+															</Array>
+														</item>
+													</Children>
+												</item>
+											</Children>
+										</px>
+									</InternalData>
+									<Connections class_id="37" tracking_level="0" version="0">
+										<size>0</size>
+									</Connections>
+								</VxExtension>
+								<Category>Graphics</Category>
+								<Type>File</Type>
+								<VXP></VXP>
+								<UUID class_id="38" tracking_level="0" version="0">
+									<Id>69d070d4-68ce-5b0e-9caa-ebdb38650f9a</Id>
+								</UUID>
+								<PluginDataSize>0</PluginDataSize>
+								<LoadedExtensionVersion>0</LoadedExtensionVersion>
+								<InterfacesVersions class_id="39" tracking_level="0" version="0">
+									<count>0</count>
+									<item_version>0</item_version>
+								</InterfacesVersions>
+							</Extension>
+						</item>
+					</Extensions>
+					<TypeId>
+						<Id>9c7ad0f4-2fb3-4796-b1c0-3e895b770d3f</Id>
+					</TypeId>
+				</VxExtendable>
+				<AssembliesByID class_id="40" tracking_level="0" version="0">
+					<size>1</size>
+					<item class_id="41" tracking_level="0" version="0">
+						<ID>0</ID>
+						<Assembly class_id="42" tracking_level="1" version="620131114" object_id="_71">
+							<VxBaseUserData class_id="43" tracking_level="0" version="620130426">
+								<VxBase object_id="_72">
+									<Name>Assembly</Name>
+								</VxBase>
+								<UserData class_id="44" tracking_level="0" version="620130426">
+									<Size>0</Size>
+								</UserData>
+							</VxBaseUserData>
+							<Parts class_id="45" tracking_level="0" version="0">
+								<size>1</size>
+								<item class_id="46" tracking_level="1" version="620140509" object_id="_73">
+									<VxBaseUserData>
+										<VxBase object_id="_74">
+											<Name>tertest3</Name>
+										</VxBase>
+										<UserData>
+											<Size>0</Size>
+										</UserData>
+									</VxBaseUserData>
+									<Control>2</Control>
+									<Frozen>0</Frozen>
+									<Transform class_id="47" tracking_level="0" version="2">
+										<a00>1</a00>
+										<a01>0</a01>
+										<a02>0</a02>
+										<a03>0</a03>
+										<a10>0</a10>
+										<a11>1</a11>
+										<a12>0</a12>
+										<a13>0</a13>
+										<a20>0</a20>
+										<a21>0</a21>
+										<a22>1</a22>
+										<a23>0</a23>
+										<a30>0</a30>
+										<a31>0</a31>
+										<a32>0</a32>
+										<a33>1</a33>
+									</Transform>
+									<CollisionGeometries class_id="48" tracking_level="0" version="0">
+										<size>1</size>
+										<item class_id="49" tracking_level="1" version="620140606" object_id="_75">
+											<Geometry class_id="50" class_name="Vx::VxBox" tracking_level="1" version="1" object_id="_76">
+												<Dimensions class_id="51" tracking_level="0" version="2">
+													<x>1780.9637197036059</x>
+													<y>500.04863825931909</y>
+													<z>0.0099999997764825821</z>
+												</Dimensions>
+												<Vx__VxGeometry class_id="52" tracking_level="0" version="520100709">
+													<VxBaseUserData>
+														<VxBase object_id="_77">
+															<Name>default_VxBox_185335</Name>
+														</VxBase>
+														<UserData>
+															<Size>0</Size>
+														</UserData>
+													</VxBaseUserData>
+													<MaterialMap class_id="53" tracking_level="0" version="0">
+														<size>0</size>
+													</MaterialMap>
+												</Vx__VxGeometry>
+											</Geometry>
+											<VxBaseUserData>
+												<VxBase object_id="_78">
+													<Name>Box</Name>
+												</VxBase>
+												<UserData>
+													<Size>0</Size>
+												</UserData>
+											</VxBaseUserData>
+											<massEnabled>1</massEnabled>
+											<collisionEnabled>1</collisionEnabled>
+											<fluidInteractionEnabled>0</fluidInteractionEnabled>
+											<fluidInteractionData class_id="-1"></fluidInteractionData>
+											<material class_id="55" tracking_level="1" version="1" object_id="_79">
+												<VxMaterialBase class_id="56" tracking_level="0" version="520100730">
+													<VxBase object_id="_80">
+														<Name>Ground</Name>
+													</VxBase>
+													<options>4</options>
+													<restitution>0</restitution>
+													<velThreshold>0.001</velThreshold>
+													<compliance>1e-010</compliance>
+													<damping>1000000000</damping>
+													<max_adhesive_force>0</max_adhesive_force>
+													<model>
+														<count>5</count>
+														<item>1</item>
+														<item>1</item>
+														<item>5</item>
+														<item>5</item>
+														<item>5</item>
+													</model>
+													<slip>
+														<count>5</count>
+														<item>0.0001</item>
+														<item>0.0001</item>
+														<item>0</item>
+														<item>0</item>
+														<item>0</item>
+													</slip>
+													<slide>
+														<count>5</count>
+														<item>0</item>
+														<item>0</item>
+														<item>0</item>
+														<item>0</item>
+														<item>0</item>
+													</slide>
+													<boxMaxForce>
+														<count>5</count>
+														<item>0</item>
+														<item>0</item>
+														<item>0</item>
+														<item>0</item>
+														<item>0</item>
+													</boxMaxForce>
+													<sbCoefficient>
+														<count>5</count>
+														<item>1</item>
+														<item>1</item>
+														<item>0</item>
+														<item>0</item>
+														<item>0</item>
+													</sbCoefficient>
+													<staticFrictionScale>
+														<count>5</count>
+														<item>1</item>
+														<item>1</item>
+														<item>1</item>
+														<item>1</item>
+														<item>1</item>
+													</staticFrictionScale>
+												</VxMaterialBase>
+												<IntegratedSlipDisplacement>0</IntegratedSlipDisplacement>
+											</material>
+											<responseID>0</responseID>
+											<requestID>0</requestID>
+											<relativeDensity>1</relativeDensity>
+											<relativeTransform>
+												<a00>0.99999998324927786</a00>
+												<a01>-2.7292668496705653e-005</a01>
+												<a02>0.00018098771860639603</a02>
+												<a03>0</a03>
+												<a10>2.7281286353213214e-005</a10>
+												<a11>0.99999999765021363</a11>
+												<a12>6.2891208472007538e-005</a12>
+												<a13>0</a13>
+												<a20>-0.00018098943465001774</a20>
+												<a21>-6.2886269840756667e-005</a21>
+												<a22>0.99999998164407067</a22>
+												<a23>0</a23>
+												<a30>190.47501612453979</a30>
+												<a31>1.4085471153523585e-005</a31>
+												<a32>0</a32>
+												<a33>1</a33>
+											</relativeTransform>
+											<tempDisabled>0</tempDisabled>
+											<collisionGeometryID class_id="57" tracking_level="0" version="0">
+												<id></id>
+											</collisionGeometryID>
+											<contactTolerance>0.001</contactTolerance>
+											<fastMoving>0</fastMoving>
+										</item>
+									</CollisionGeometries>
+									<LinearVelocity>
+										<x>0</x>
+										<y>0</y>
+										<z>0</z>
+									</LinearVelocity>
+									<AngularVelocity>
+										<x>0</x>
+										<y>0</y>
+										<z>0</z>
+									</AngularVelocity>
+									<LinearVelocityDamping>0</LinearVelocityDamping>
+									<AngularVelocityDamping>0</AngularVelocityDamping>
+									<MassProperties class_id="58" tracking_level="0" version="620140207">
+										<Mass>1</Mass>
+										<COMLocalTM>
+											<a00>1</a00>
+											<a01>0</a01>
+											<a02>0</a02>
+											<a03>0</a03>
+											<a10>0</a10>
+											<a11>1</a11>
+											<a12>0</a12>
+											<a13>0</a13>
+											<a20>0</a20>
+											<a21>0</a21>
+											<a22>1</a22>
+											<a23>0</a23>
+											<a30>0</a30>
+											<a31>0</a31>
+											<a32>0</a32>
+											<a33>1</a33>
+										</COMLocalTM>
+										<InertiaTensor>
+											<count>3</count>
+											<item>
+												<count>3</count>
+												<item>0.40000000000000002</item>
+												<item>0</item>
+												<item>0</item>
+											</item>
+											<item>
+												<count>3</count>
+												<item>0</item>
+												<item>0.40000000000000002</item>
+												<item>0</item>
+											</item>
+											<item>
+												<count>3</count>
+												<item>0</item>
+												<item>0</item>
+												<item>0.40000000000000002</item>
+											</item>
+										</InertiaTensor>
+									</MassProperties>
+									<LockMass>1</LockMass>
+									<LockCOM>1</LockCOM>
+									<LockInertia>1</LockInertia>
+									<EnabledSteps>0</EnabledSteps>
+									<AutoSleepLinearSpeedThreshold>0.019999999552965164</AutoSleepLinearSpeedThreshold>
+									<AutoSleepLinearAccelerationThreshold>0.0020000000949949026</AutoSleepLinearAccelerationThreshold>
+									<AutoSleepAngularSpeedThreshold>0.0010000000474974513</AutoSleepAngularSpeedThreshold>
+									<AutoSleepAngularAccelerationThreshold>0.0020000000949949026</AutoSleepAngularAccelerationThreshold>
+									<AutoSleepStepLiveThreshold>10</AutoSleepStepLiveThreshold>
+									<Force>
+										<x>0</x>
+										<y>0</y>
+										<z>0</z>
+									</Force>
+									<Torque>
+										<x>0</x>
+										<y>0</y>
+										<z>0</z>
+									</Torque>
+									<FastSpinAxisEnabled>0</FastSpinAxisEnabled>
+									<FastSpinAxisRelative>
+										<x>0</x>
+										<y>0</y>
+										<z>0</z>
+									</FastSpinAxisRelative>
+									<FluidData class_id="59" tracking_level="0" version="0">
+										<FilteredLinAcc object_id="_81">
+											<x>0</x>
+											<y>0</y>
+											<z>0</z>
+										</FilteredLinAcc>
+										<FilteredAngAcc object_id="_82">
+											<x>0</x>
+											<y>0</y>
+											<z>0</z>
+										</FilteredAngAcc>
+									</FluidData>
+									<Awake>0</Awake>
+									<SolverGroup>0</SolverGroup>
+									<FrictionDirectionSubscriber class_id="-1"></FrictionDirectionSubscriber>
+									<CollisionRules class_id="60" tracking_level="0" version="0">
+										<size>0</size>
+									</CollisionRules>
+									<SphericalInertiaEnabled>0</SphericalInertiaEnabled>
+								</item>
+							</Parts>
+							<Constraints class_id="61" tracking_level="0" version="0">
+								<size>0</size>
+							</Constraints>
+							<AttachmentPoints class_id="62" tracking_level="0" version="0">
+								<size>0</size>
+							</AttachmentPoints>
+							<Attachments class_id="63" tracking_level="0" version="0">
+								<size>0</size>
+							</Attachments>
+							<Extensions class_id="64" tracking_level="0" version="0">
+								<size>0</size>
+							</Extensions>
+							<SelfCollide>1</SelfCollide>
+							<ReferenceFrame class_id_reference="46" object_id_reference="_73"></ReferenceFrame>
+							<SubAssemblies class_id="65" tracking_level="0" version="0">
+								<size>0</size>
+							</SubAssemblies>
+							<CollisionRules>
+								<size>0</size>
+							</CollisionRules>
+						</Assembly>
+					</item>
+				</AssembliesByID>
+				<Transform class_id="66" tracking_level="1" version="2" object_id="_83">
+					<a00>1</a00>
+					<a01>0</a01>
+					<a02>0</a02>
+					<a03>0</a03>
+					<a10>0</a10>
+					<a11>1</a11>
+					<a12>0</a12>
+					<a13>0</a13>
+					<a20>0</a20>
+					<a21>0</a21>
+					<a22>1</a22>
+					<a23>0</a23>
+					<a30>0</a30>
+					<a31>0</a31>
+					<a32>0</a32>
+					<a33>1</a33>
+				</Transform>
+			</Mechanism>
+			<ConnectionSection>
+				<Path>base:///VxConnectionSection/default_VxConnectionSection_197337</Path>
+			</ConnectionSection>
+		</item>
+		<item class_id="67" class_name="VxSim::VxConnectionSection" tracking_level="1" version="620130516" object_id="_84">
+			<VxFileSection>
+				<Vx__VxBase object_id="_85">
+					<Name>default_VxConnectionSection_197337</Name>
+				</Vx__VxBase>
+			</VxFileSection>
+			<Connections>
+				<size>0</size>
+			</Connections>
+		</item>
+	</Sections>
+</File>
+</boost_serialization>
+
